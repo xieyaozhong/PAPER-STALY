@@ -1,0 +1,35 @@
+asset_id,category,source_name,source_url,license_status,license_or_terms,priority,target_layer,notes
+geo_fgdc_patterns,geology,FGDC Geologic Patterns,https://github.com/davenquinn/geologic-patterns,GREEN,CC0/Public Domain,S++,03_VISUAL_LANGUAGE/geological_patterns,岩性與地層填充
+geo_usgs_symbols,geology,USGS Geologic Map Symbolization,https://pubs.usgs.gov/tm/2006/11A02/,GREEN_CHECK,US Government work / check embedded items,S++,03_VISUAL_LANGUAGE/geological_symbols,正式地質符號標準
+geo_macrostrat,geology,Macrostrat,https://macrostrat.org/,YELLOW,Dataset/service terms,S++,01_RAW_DATA/geology,全球地質與地層資料
+geo_gplates,plate_tectonics,GPlates,https://www.gplates.org/,GREEN_CHECK,GPL software; datasets vary,S+,04_RENDERING/GPlates,板塊重建工具
+gs_usgs_media,geoscience_media,USGS Multimedia Gallery,https://www.usgs.gov/products/multimedia-gallery,GREEN_CHECK,Public Domain unless otherwise noted,S++,02_SCIENCE_ASSETS/USGS,地震火山地貌圖像
+terrain_naturalearth,map,Natural Earth,https://www.naturalearthdata.com/,GREEN,Public Domain,S++,01_RAW_DATA/map,世界向量與 raster 底圖
+terrain_gebco,bathymetry,GEBCO,https://www.gebco.net/,GREEN_CHECK,Public domain grid / citation recommended,S++,01_RAW_DATA/bathymetry,全球海底地形
+terrain_etopo,relief,NOAA ETOPO,https://www.ncei.noaa.gov/products/etopo-global-relief-model,GREEN_CHECK,NOAA data terms,S++,01_RAW_DATA/dem,全球陸海 relief
+terrain_opentopo,dem,OpenTopography,https://opentopography.org/,YELLOW,Dataset-specific,S,01_RAW_DATA/dem,DEM 聚合平台
+terrain_geomapapp,bathymetry,GeoMapApp / GMRT,https://www.geomapapp.org/,YELLOW,Tool + dataset attribution,S+,04_RENDERING/GeoMapApp,快速地球物理與海底製圖
+nasa_svs,scientific_visualization,NASA SVS,https://svs.gsfc.nasa.gov/,GREEN_CHECK,NASA media rules + item credits,S++,02_SCIENCE_ASSETS/NASA,地球氣候太空科學視覺化
+nasa_worldview,satellite,NASA Worldview,https://worldview.earthdata.nasa.gov/,YELLOW,Underlying dataset-specific,S+,01_RAW_DATA/satellite,衛星資料快速輸出
+nasa_3d,astronomy,NASA 3D Resources,https://science.nasa.gov/3d-resources/,GREEN_CHECK,NASA media rules + item credits,S,02_SCIENCE_ASSETS/NASA,地球月球行星探測器模型
+noaa_oceanexplorer,ocean,NOAA Ocean Exploration,https://oceanexplorer.noaa.gov/,GREEN_CHECK,Public Domain unless otherwise noted,S++,02_SCIENCE_ASSETS/NOAA,深海與海洋地質實景
+noaa_sos,climate,NOAA Science On a Sphere,https://sos.noaa.gov/,YELLOW,Dataset-specific,S,02_SCIENCE_ASSETS/NOAA,全球氣候海洋資料視覺化
+palette_cmocean,colormap,cmocean,https://github.com/matplotlib/cmocean,GREEN,MIT,S+,03_VISUAL_LANGUAGE/cmocean,海洋科學配色
+palette_cmweather,colormap,cmweather,https://github.com/openradar/cmweather,GREEN,MIT,S+,03_VISUAL_LANGUAGE/cmweather,氣象雷達科學配色
+icons_weather,icons,Weather Icons / Meteocons,https://github.com/basmilius/weather-icons,GREEN_CHECK,Repository license,S,03_VISUAL_LANGUAGE/weather_icons,統一氣象 UI icon
+sentinel2,satellite,Copernicus Sentinel-2,https://dataspace.copernicus.eu/,GREEN_CHECK,Copernicus data terms,S+,01_RAW_DATA/satellite,真彩假彩 NDVI NDWI
+esa_worldcover,land_cover,ESA WorldCover,https://esa-worldcover.org/,GREEN,CC BY 4.0,S+,01_RAW_DATA/land_cover,10m 全球土地覆蓋
+landsat,satellite,Landsat,https://www.usgs.gov/landsat-missions,GREEN_CHECK,USGS/NASA data terms,S+,01_RAW_DATA/satellite,長時間序列 Before/After
+smithsonian_oa,specimens,Smithsonian Open Access,https://www.si.edu/openaccess,GREEN_CHECK,CC0 for OA-marked assets,S+,02_SCIENCE_ASSETS/Smithsonian,礦物岩石化石隕石標本
+esa_hubble,astronomy,ESA/Hubble,https://esahubble.org/images/,GREEN_CHECK,Item credit/copyright rules,S+,02_SCIENCE_ASSETS/ESA,天文實景
+eso_images,astronomy,ESO Images,https://www.eso.org/public/images/,GREEN_CHECK,ESO credit/copyright rules,S,02_SCIENCE_ASSETS/ESO,深空天文影像
+usgs_astro,planetary,USGS Astrogeology,https://www.usgs.gov/centers/astrogeology-science-center,GREEN_CHECK,USGS/NASA dataset terms,S+,01_RAW_DATA/planetary,月球火星 DEM 與行星地質
+tw_geology,tw_geology,台灣地質雲,https://www.geologycloud.tw/,GREEN_CHECK,Taiwan government data terms,S++,01_RAW_DATA/geology_taiwan,地層斷層液化山崩
+tw_cwa,tw_weather,中央氣象署 Open Data,https://opendata.cwa.gov.tw/,GREEN_CHECK,Taiwan government open-data terms,S++,01_RAW_DATA/weather_taiwan,氣象雨量地震海嘯
+tw_nodass,tw_ocean,NODASS,https://nodass.namr.gov.tw/,YELLOW,Dataset-specific,S,01_RAW_DATA/ocean_taiwan,台灣海洋資料
+tw_nlsc,tw_map,國土測繪中心,https://www.nlsc.gov.tw/,GREEN_CHECK,Service/dataset-specific,S+,01_RAW_DATA/map_taiwan,DTM LiDAR WMS WMTS
+tw_tasa,tw_satellite,TASA,https://www.tasa.org.tw/,YELLOW,Item-specific,S,02_SCIENCE_ASSETS/TASA,福衛影像需逐項確認
+web_cesium,interactive,CesiumJS,https://github.com/CesiumGS/cesium,GREEN,Apache-2.0,S+,05_INTERACTIVE/CesiumJS,3D 地球互動教材
+web_maplibre,interactive,MapLibre GL JS,https://github.com/maplibre/maplibre-gl-js,GREEN,BSD-3-Clause,S+,05_INTERACTIVE/MapLibre,2D vector map
+web_deckgl,interactive,deck.gl,https://github.com/visgl/deck.gl,GREEN,MIT,S,05_INTERACTIVE/deck.gl,大量地理資料 GPU 視覺化
+book_physicalgeology,diagram_reference,BCcampus Physical Geology,https://opentextbc.ca/physicalgeology2ed/,YELLOW,CC BY 4.0 main text; embedded items vary,S,02_SCIENCE_ASSETS/open_textbook_reference,概念圖參考
