@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">地球起源與演變概念因果鏈</title>
+  <desc id="desc">依序整理星雲收縮、原行星盤、物質分區、吸積成長、地球分異、月球形成、大氣與海洋。</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#d9e0e7"/></marker></defs>
+  <rect width="1200" height="675" fill="#0b0d10"/>
+  <text x="70" y="70" fill="#f5f7fa" font-size="34" font-family="sans-serif" font-weight="700">1-1 地球的起源與演變｜概念鏈</text>
+  <text x="70" y="108" fill="#9aa6b2" font-size="18" font-family="monospace" letter-spacing="2">SUMMARY · CAUSAL CHAIN</text>
+
+  <g font-family="sans-serif" text-anchor="middle">
+    <g fill="#12161c" stroke="#39424e" stroke-width="2">
+      <rect x="55" y="235" width="140" height="88" rx="12"/><rect x="215" y="235" width="140" height="88" rx="12"/><rect x="375" y="235" width="140" height="88" rx="12"/><rect x="535" y="235" width="140" height="88" rx="12"/><rect x="695" y="235" width="140" height="88" rx="12"/><rect x="855" y="235" width="140" height="88" rx="12"/><rect x="1015" y="235" width="140" height="88" rx="12"/>
+    </g>
+    <g fill="#f5f7fa" font-size="19" font-weight="700">
+      <text x="125" y="286">星雲收縮</text><text x="285" y="286">原行星盤</text><text x="445" y="286">物質分區</text><text x="605" y="286">吸積成長</text><text x="765" y="286">地球分異</text><text x="925" y="286">月球形成</text><text x="1085" y="278">大氣</text><text x="1085" y="302">與海洋</text>
+    </g>
+    <g stroke="#d9e0e7" stroke-width="3" marker-end="url(#arrow)">
+      <line x1="195" y1="279" x2="210" y2="279"/><line x1="355" y1="279" x2="370" y2="279"/><line x1="515" y1="279" x2="530" y2="279"/><line x1="675" y1="279" x2="690" y2="279"/><line x1="835" y1="279" x2="850" y2="279"/><line x1="995" y1="279" x2="1010" y2="279"/>
+    </g>
+    <g fill="#9aa6b2" font-size="14">
+      <text x="205" y="210">重力＋旋轉</text><text x="365" y="210">溫度＋雪線</text><text x="525" y="210">碰撞＋重力</text><text x="685" y="210">高溫＋密度差</text><text x="845" y="210">巨大撞擊</text><text x="1005" y="210">冷卻＋逸氣＋凝結</text>
+    </g>
+  </g>
+
+  <rect x="150" y="430" width="900" height="100" rx="16" fill="#12161c" stroke="#39424e"/>
+  <text x="600" y="470" text-anchor="middle" fill="#9aa6b2" font-size="16" font-family="monospace" letter-spacing="2">MEMORY STRIP</text>
+  <text x="600" y="510" text-anchor="middle" fill="#f5f7fa" font-size="25" font-family="sans-serif" font-weight="700">重力聚集 · 溫度選材 · 吸積長大 · 密度分層 · 冷卻成海</text>
+  <text x="70" y="615" fill="#9aa6b2" font-size="16" font-family="sans-serif">章末統整用；箭頭同時表示事件順序與主要因果方向。</text>
+</svg>
