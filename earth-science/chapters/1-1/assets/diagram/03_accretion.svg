@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">行星吸積序列</title>
+  <desc id="desc">由塵埃顆粒、團塊、微行星、原行星到行星的概念序列。</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#d9e0e7"/></marker></defs>
+  <rect width="1200" height="675" fill="#0b0d10"/>
+  <text x="70" y="70" fill="#f5f7fa" font-size="34" font-family="sans-serif" font-weight="700">吸積：從微粒到原行星</text>
+  <text x="70" y="108" fill="#9aa6b2" font-size="18" font-family="monospace" letter-spacing="2">DIAGRAM · ACCRETION SEQUENCE</text>
+
+  <g font-family="sans-serif" text-anchor="middle">
+    <g transform="translate(140 330)">
+      <g fill="#d9e0e7"><circle cx="-25" cy="5" r="5"/><circle cx="12" cy="-18" r="4"/><circle cx="28" cy="18" r="5"/><circle cx="-8" cy="24" r="4"/></g>
+      <text y="105" fill="#f5f7fa" font-size="18">塵埃微粒</text>
+    </g>
+    <line x1="215" y1="330" x2="285" y2="330" stroke="#d9e0e7" stroke-width="3" marker-end="url(#arrow)"/>
+    <g transform="translate(360 330)">
+      <circle r="34" fill="#39424e"/><circle cx="-16" cy="-9" r="10" fill="#9aa6b2"/><circle cx="12" cy="10" r="12" fill="#6e7681"/>
+      <text y="105" fill="#f5f7fa" font-size="18">團塊</text>
+    </g>
+    <line x1="435" y1="330" x2="505" y2="330" stroke="#d9e0e7" stroke-width="3" marker-end="url(#arrow)"/>
+    <g transform="translate(580 330)">
+      <circle r="58" fill="#39424e"/><circle cx="-18" cy="-10" r="15" fill="#596270"/><circle cx="22" cy="17" r="12" fill="#6e7681"/>
+      <text y="105" fill="#f5f7fa" font-size="18">微行星</text>
+    </g>
+    <line x1="665" y1="330" x2="735" y2="330" stroke="#d9e0e7" stroke-width="3" marker-end="url(#arrow)"/>
+    <g transform="translate(820 330)">
+      <circle r="82" fill="#596270"/><path d="M-55,-22 C-20,-70 45,-58 65,-12 C30,12 5,46 -45,35 Z" fill="#39424e"/>
+      <text y="125" fill="#f5f7fa" font-size="18">原行星</text>
+    </g>
+    <line x1="920" y1="330" x2="980" y2="330" stroke="#d9e0e7" stroke-width="3" marker-end="url(#arrow)"/>
+    <g transform="translate(1060 330)">
+      <circle r="94" fill="#6ed4ff" opacity=".78"/><circle r="66" fill="#39424e" opacity=".65"/>
+      <text y="135" fill="#f5f7fa" font-size="18">行星</text>
+    </g>
+  </g>
+
+  <text x="70" y="600" fill="#9aa6b2" font-size="16" font-family="sans-serif">概念序列，不代表線性尺寸比例；碰撞並非每次都會造成合併。</text>
+</svg>
