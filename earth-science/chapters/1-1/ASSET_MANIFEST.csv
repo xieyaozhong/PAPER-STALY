@@ -1,0 +1,47 @@
+id,module,title,role,source,source_url,target_format,license_status,priority,status,notes
+ES11-001,01_nebula,分子雲／星雲背景,章首主視覺,NASA SVS,https://svs.gsfc.nasa.gov/,WebP,YELLOW,S,TO_SOURCE,逐項確認 credit；不可只因 NASA 網站就直接視為 PD
+ES11-002,01_nebula,星雲收縮箭頭示意,核心因果圖,SELF,,SVG,GREEN,S,TO_DRAW,自製向量；表現重力造成收縮
+ES11-003,01_nebula,旋轉加速示意,角動量概念,SELF,,SVG,GREEN,S,TO_DRAW,以半徑縮小＋旋轉方向箭頭表現
+ES11-004,01_nebula,角動量 icon,資料卡圖示,Lucide,https://lucide.dev/,SVG,GREEN,A,TO_SOURCE,依 repository LICENSE 保留必要 notice
+ES11-005,01_nebula,重力 icon,資料卡圖示,Tabler Icons,https://tabler.io/icons,SVG,GREEN,A,TO_SOURCE,統一 stroke width
+ES11-006,02_protoplanetary_disk,原行星盤真實觀測影像,核心實景,ESO Image Archive,https://www.eso.org/public/images/,WebP,YELLOW,S,TO_SOURCE,優先選有明確 credit 與可重用條款的觀測影像
+ES11-007,02_protoplanetary_disk,原行星盤科學示意,核心圖解,SELF,,SVG,GREEN,S,TO_DRAW,中心恆星＋盤面＋徑向溫度梯度
+ES11-008,02_protoplanetary_disk,雪線位置示意,核心圖解,SELF,,SVG,GREEN,S,TO_DRAW,標出高溫區／低溫區及可凝結物質差異
+ES11-009,02_protoplanetary_disk,盤面溫度梯度,資料視覺,SELF,,SVG,GREEN,S,TO_DRAW,避免彩虹色譜；以單調科學色階表達
+ES11-010,02_protoplanetary_disk,內外行星材料差異卡,概念比較,SELF,,SVG,GREEN,S,TO_DRAW,岩石金屬 vs 冰／揮發物
+ES11-011,02_protoplanetary_disk,行星盤觀測補充圖,延伸閱讀,ESA/Hubble,https://esahubble.org/images/,WebP,YELLOW,A,TO_SOURCE,逐圖核對 CC/credit
+ES11-012,03_accretion,塵埃凝聚序列,步驟圖,SELF,,SVG,GREEN,S,TO_DRAW,微粒→團塊→微行星
+ES11-013,03_accretion,微行星碰撞吸積,核心圖解,SELF,,SVG,GREEN,S,TO_DRAW,碰撞箭頭不可暗示所有碰撞都必然合併
+ES11-014,03_accretion,原行星形成序列,步驟圖,SELF,,SVG,GREEN,S,TO_DRAW,尺寸逐步放大並保留比例提示
+ES11-015,03_accretion,吸積 timeline strip,段落導讀,SELF,,SVG,GREEN,A,TO_DRAW,與全章 timeline 共用視覺語言
+ES11-016,03_accretion,小天體／隕石標本,證據照片,Smithsonian Open Access,https://www.si.edu/openaccess,WebP,GREEN,A,TO_SOURCE,只選明確 Open Access/CC0 項目
+ES11-017,03_accretion,隕石 icon,資料卡圖示,Material Symbols,https://fonts.google.com/icons,SVG,GREEN,B,TO_SOURCE,Apache-2.0；僅作 UI 輔助
+ES11-018,04_differentiation,早期熔融地球剖面,核心圖解,SELF,,SVG,GREEN,S,TO_DRAW,需明確標示為示意而非真實攝影
+ES11-019,04_differentiation,密度分異流程,核心因果圖,SELF,,SVG,GREEN,S,TO_DRAW,高密度物質下沉、低密度物質上浮
+ES11-020,04_differentiation,核幔殼分層,核心剖面,SELF,,SVG,GREEN,S,TO_DRAW,避免誇張不正確厚度比例；可附 not to scale
+ES11-021,04_differentiation,熱源卡：碰撞／壓縮／放射性,概念卡,SELF,,SVG,GREEN,S,TO_DRAW,三來源以同一 icon 系統表現
+ES11-022,04_differentiation,地球 3D model reference,空間理解,NASA 3D Resources,https://science.nasa.gov/3d-resources/,glTF/YELLOW,YELLOW,A,TO_SOURCE,逐素材頁檢查 credit；衍生圖另存 PNG/SVG overlay
+ES11-023,04_differentiation,密度 icon,資料卡圖示,Lucide,https://lucide.dev/,SVG,GREEN,B,TO_SOURCE,找不到精準 icon 時改自製
+ES11-024,05_moon,巨撞假說四格流程,核心圖解,SELF,,SVG,GREEN,S,TO_DRAW,撞擊→噴出物→盤→月球
+ES11-025,05_moon,早期地球與撞擊體軌跡,核心圖解,SELF,,SVG,GREEN,S,TO_DRAW,軌跡僅作概念示意，不暗示精確歷史路徑
+ES11-026,05_moon,月球表面實景,證據照片,NASA Science,https://science.nasa.gov/moon/,WebP,YELLOW,S,TO_SOURCE,逐張核對 image credit
+ES11-027,05_moon,月球 3D model,互動／延伸,NASA 3D Resources,https://science.nasa.gov/3d-resources/,glTF,YELLOW,A,TO_SOURCE,可衍生靜態教材視圖
+ES11-028,05_moon,月球地形 relief,延伸圖,USGS Astrogeology,https://www.usgs.gov/centers/astrogeology-science-center,PNG/YELLOW,YELLOW,A,TO_SOURCE,使用特定 dataset 前核對 metadata
+ES11-029,05_moon,Earth-Moon scale strip,尺度概念,SELF,,SVG,GREEN,A,TO_DRAW,標示 not to scale 或使用真比例二擇一
+ES11-030,06_atmosphere_ocean,火山逸氣示意,核心圖解,SELF,,SVG,GREEN,S,TO_DRAW,氣體成分以教材需要為限
+ES11-031,06_atmosphere_ocean,火山噴氣／逸氣實景,證據照片,USGS Multimedia Gallery,https://www.usgs.gov/products/multimedia-gallery,WebP,YELLOW,A,TO_SOURCE,選 USGS 原創且無第三方版權標示項目
+ES11-032,06_atmosphere_ocean,大氣形成流程,核心因果圖,SELF,,SVG,GREEN,S,TO_DRAW,逸氣→累積→冷卻→演變
+ES11-033,06_atmosphere_ocean,水氣凝結成海流程,核心圖解,SELF,,SVG,GREEN,S,TO_DRAW,降溫→凝結→降水→海洋
+ES11-034,06_atmosphere_ocean,早期海洋概念背景,章節視覺,SELF,,SVG,GREEN,A,TO_DRAW,不用不必要的科幻色彩
+ES11-035,06_atmosphere_ocean,水循環 icon set,資料卡圖示,Tabler Icons,https://tabler.io/icons,SVG,GREEN,B,TO_SOURCE,只取必要圖示並統一線寬
+ES11-036,07_timeline,46 億年至早期地球總時間軸,章節總結,SELF,,SVG,GREEN,S,TO_DRAW,與每節 timeline strip 共用比例與標籤規格
+ES11-037,07_timeline,五階段 memory strip,記憶工具,SELF,,SVG,GREEN,S,TO_DRAW,重力聚集／溫度選材／吸積長大／密度分層／冷卻成海
+ES11-038,07_timeline,概念因果鏈總圖,章末統整,SELF,,SVG,GREEN,S,TO_DRAW,用箭頭清楚區分時間順序與因果關係
+ES11-039,07_timeline,形成事件檢核卡,學習評量,SELF,,SVG,GREEN,A,TO_DRAW,用於排序／配對題
+ES11-040,08_icons_patterns,天文 UI icon subset,介面圖示,Lucide,https://lucide.dev/,SVG,GREEN,A,TO_SOURCE,限定 12–20 個本章實際會用 icon
+ES11-041,08_icons_patterns,地質 UI icon subset,介面圖示,Tabler Icons,https://tabler.io/icons,SVG,GREEN,A,TO_SOURCE,避免與 Lucide 混用於同一資訊層級
+ES11-042,08_icons_patterns,地質紋理 subset,剖面／背景,FGDC Geologic Patterns,https://github.com/davenquinn/geologic-patterns,SVG,GREEN,A,TO_SOURCE,本章只取必要 6–10 種紋理
+ES11-043,08_icons_patterns,科學資料 label system,UI 元件,SELF,,SVG,GREEN,S,TO_DRAW,MISSION/AGE/TEMP/DENSITY/PROCESS 等標籤
+ES11-044,08_icons_patterns,箭頭與流程線系統,UI 元件,SELF,,SVG,GREEN,S,TO_DRAW,建立 movement/causal/timeline 三種不同箭頭語意
+ES11-045,08_icons_patterns,來源／credit footer component,版權元件,SELF,,SVG,GREEN,S,TO_DRAW,每頁可重用；支援機構＋作者＋license
+ES11-046,08_icons_patterns,章節封面 Earth visual,封面主視覺,NASA Blue Marble,https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/,WebP,YELLOW,S,TO_SOURCE,逐頁確認 media credit；不使用 NASA Logo
