@@ -1,0 +1,28 @@
+:root {
+  --es-bg: #0b0d10;
+  --es-surface: #12161c;
+  --es-surface-2: #1a2028;
+  --es-text: #f5f7fa;
+  --es-muted: #9aa6b2;
+  --es-line: #39424e;
+  --es-cold: #6ed4ff;
+  --es-hot: #ffb25b;
+  --es-neutral: #d9e0e7;
+  --es-radius-sm: 6px;
+  --es-radius-md: 12px;
+  --es-stroke: 2;
+  --es-space-1: 4px;
+  --es-space-2: 8px;
+  --es-space-3: 12px;
+  --es-space-4: 16px;
+  --es-space-6: 24px;
+  --es-font-sans: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif;
+  --es-font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+/* Scientific semantic use only: hot/cold should communicate data meaning, not decoration. */
+.es-label {
+  font-family: var(--es-font-mono);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
