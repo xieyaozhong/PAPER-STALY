@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">巨大撞擊與月球形成</title>
+  <desc id="desc">以四格概念圖顯示撞擊體接近早期地球、巨大撞擊、噴出物形成環繞物質盤、盤中物質聚集形成月球。</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#d9e0e7"/></marker></defs>
+  <rect width="1200" height="675" fill="#0b0d10"/>
+  <text x="70" y="70" fill="#f5f7fa" font-size="34" font-family="sans-serif" font-weight="700">月球形成：巨大撞擊假說</text>
+  <text x="70" y="108" fill="#9aa6b2" font-size="18" font-family="monospace" letter-spacing="2">RECONSTRUCTION · CONCEPTUAL SEQUENCE</text>
+
+  <g font-family="sans-serif">
+    <g transform="translate(165 335)">
+      <circle r="78" fill="#596270"/><circle cx="150" cy="-95" r="38" fill="#ffb25b"/>
+      <line x1="122" y1="-74" x2="62" y2="-35" stroke="#d9e0e7" stroke-width="4" marker-end="url(#arrow)"/>
+      <text x="0" y="145" text-anchor="middle" fill="#f5f7fa" font-size="18">1 撞擊體接近</text>
+    </g>
+    <g transform="translate(450 335)">
+      <circle r="82" fill="#596270"/><path d="M50,-42 L120,-80 L92,-18 L152,5 L78,24 L105,78 L45,50" fill="#ffb25b" opacity=".9"/>
+      <text x="0" y="145" text-anchor="middle" fill="#f5f7fa" font-size="18">2 巨大撞擊</text>
+    </g>
+    <g transform="translate(745 335)">
+      <circle r="75" fill="#596270"/><ellipse rx="150" ry="45" fill="none" stroke="#ffb25b" stroke-width="14" stroke-dasharray="22 14" opacity=".85"/>
+      <text x="0" y="145" text-anchor="middle" fill="#f5f7fa" font-size="18">3 噴出物形成物質盤</text>
+    </g>
+    <g transform="translate(1030 335)">
+      <circle r="72" fill="#596270"/><ellipse rx="145" ry="42" fill="none" stroke="#39424e" stroke-width="3"/>
+      <circle cx="118" cy="-24" r="34" fill="#d9e0e7"/>
+      <text x="0" y="145" text-anchor="middle" fill="#f5f7fa" font-size="18">4 聚集形成月球</text>
+    </g>
+  </g>
+  <text x="70" y="610" fill="#9aa6b2" font-size="16" font-family="sans-serif">示意重建：不表示精確撞擊角度、距離或時間比例。</text>
+</svg>
