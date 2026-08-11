@@ -20,13 +20,13 @@ ES11-018,04_differentiation,早期熔融地球剖面,核心圖解,SELF,,SVG,GREE
 ES11-019,04_differentiation,密度分異流程,核心因果圖,SELF,,SVG,GREEN,S,TO_DRAW,高密度物質下沉、低密度物質上浮
 ES11-020,04_differentiation,核幔殼分層,核心剖面,SELF,,SVG,GREEN,S,TO_DRAW,避免誇張不正確厚度比例；可附 not to scale
 ES11-021,04_differentiation,熱源卡：碰撞／壓縮／放射性,概念卡,SELF,,SVG,GREEN,S,TO_DRAW,三來源以同一 icon 系統表現
-ES11-022,04_differentiation,地球 3D model reference,空間理解,NASA 3D Resources,https://science.nasa.gov/3d-resources/,glTF/YELLOW,YELLOW,A,TO_SOURCE,逐素材頁檢查 credit；衍生圖另存 PNG/SVG overlay
+ES11-022,04_differentiation,地球 3D model reference,空間理解,NASA 3D Resources,https://science.nasa.gov/3d-resources/,glTF,YELLOW,A,TO_SOURCE,逐素材頁檢查 credit；衍生圖另存 PNG/SVG overlay
 ES11-023,04_differentiation,密度 icon,資料卡圖示,Lucide,https://lucide.dev/,SVG,GREEN,B,TO_SOURCE,找不到精準 icon 時改自製
 ES11-024,05_moon,巨撞假說四格流程,核心圖解,SELF,,SVG,GREEN,S,TO_DRAW,撞擊→噴出物→盤→月球
 ES11-025,05_moon,早期地球與撞擊體軌跡,核心圖解,SELF,,SVG,GREEN,S,TO_DRAW,軌跡僅作概念示意，不暗示精確歷史路徑
 ES11-026,05_moon,月球表面實景,證據照片,NASA Science,https://science.nasa.gov/moon/,WebP,YELLOW,S,TO_SOURCE,逐張核對 image credit
 ES11-027,05_moon,月球 3D model,互動／延伸,NASA 3D Resources,https://science.nasa.gov/3d-resources/,glTF,YELLOW,A,TO_SOURCE,可衍生靜態教材視圖
-ES11-028,05_moon,月球地形 relief,延伸圖,USGS Astrogeology,https://www.usgs.gov/centers/astrogeology-science-center,PNG/YELLOW,YELLOW,A,TO_SOURCE,使用特定 dataset 前核對 metadata
+ES11-028,05_moon,月球地形 relief,延伸圖,USGS Astrogeology,https://www.usgs.gov/centers/astrogeology-science-center,PNG,YELLOW,A,TO_SOURCE,使用特定 dataset 前核對 metadata
 ES11-029,05_moon,Earth-Moon scale strip,尺度概念,SELF,,SVG,GREEN,A,TO_DRAW,標示 not to scale 或使用真比例二擇一
 ES11-030,06_atmosphere_ocean,火山逸氣示意,核心圖解,SELF,,SVG,GREEN,S,TO_DRAW,氣體成分以教材需要為限
 ES11-031,06_atmosphere_ocean,火山噴氣／逸氣實景,證據照片,USGS Multimedia Gallery,https://www.usgs.gov/products/multimedia-gallery,WebP,YELLOW,A,TO_SOURCE,選 USGS 原創且無第三方版權標示項目
