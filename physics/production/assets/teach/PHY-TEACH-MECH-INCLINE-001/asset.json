@@ -1,0 +1,42 @@
+{
+  "asset_id": "PHY-TEACH-MECH-INCLINE-001",
+  "family": "teach",
+  "title": "斜面受力｜先選座標，再分解重力",
+  "audience": "student",
+  "subject": "physics",
+  "topic": "mechanics/inclined-plane",
+  "learning_objectives": [
+    {"id":"PHY-MECH-INCLINE-LO1","statement":"能把重力分解為沿斜面與垂直斜面的分量。"},
+    {"id":"PHY-MECH-INCLINE-LO2","statement":"能在無其他垂直斜面作用力且無垂直斜面加速度時判斷正向力大小。"},
+    {"id":"PHY-MECH-INCLINE-LO3","statement":"能說明無摩擦斜面上加速度 a = g sinθ 與物體質量無關。"}
+  ],
+  "misconception_tags": [
+    "MIS-INCLINE-MG-SIN-COS-SWAPPED",
+    "MIS-INCLINE-N-EQUAL-MG",
+    "MIS-INCLINE-HEAVIER-ACCELERATES-FASTER"
+  ],
+  "render": {
+    "seed": 210301,
+    "viewport": {"width":1440,"height":1080},
+    "theme": "paper-staly-physics-dark-v1",
+    "fallback_fonts": ["Noto Sans TC","PingFang TC","Microsoft JhengHei","Arial","sans-serif"]
+  },
+  "content": {
+    "summary": "處理斜面題時，先把座標軸轉到沿斜面與垂直斜面方向，再將重力分解。無摩擦時沿斜面的淨力為 mg sinθ。",
+    "formulae": ["mg∥ = mg sinθ · mg⊥ = mg cosθ · a = g sinθ"],
+    "diagram": "../../../../mechanics/assets/02_inclined-plane.svg",
+    "quick_check": [
+      "斜角 θ 變大時，沿斜面的重力分量 mg sinθ 會如何變化？",
+      "為什麼簡單無摩擦斜面中 N 不是 mg，而是 mg cosθ？",
+      "若把物體質量加倍，無摩擦斜面上的加速度會改變嗎？"
+    ]
+  },
+  "qa": {
+    "checks": [
+      {"id":"QA-SCHEMA","description":"必要欄位完整","required":true},
+      {"id":"QA-AXIS","description":"分量以沿斜面／垂直斜面座標呈現","required":true},
+      {"id":"QA-NORMAL-CAVEAT","description":"N = mg cosθ 的適用條件有被限制","required":true},
+      {"id":"QA-DETERMINISTIC","description":"固定 seed 與 viewport","required":true}
+    ]
+  }
+}
