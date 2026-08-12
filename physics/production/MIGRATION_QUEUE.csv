@@ -2,8 +2,8 @@ order,domain,topic_id,topic,title,source_diagram,status,target_families,notes
 1,mechanics,PHY-TOPIC-MECH-NEWTON2,mechanics/newton-second-law,牛頓第二定律,../mechanics/assets/01_newton-second-law.svg,DONE,5,teach/practice/assess/diagnose/reference complete
 2,mechanics,PHY-TOPIC-MECH-INCLINE,mechanics/inclined-plane,斜面受力,../mechanics/assets/02_inclined-plane.svg,DONE,5,teach/practice/assess/diagnose/reference complete
 3,mechanics,PHY-TOPIC-MECH-PROJECTILE,mechanics/projectile-motion,拋體運動,../mechanics/assets/03_projectile-motion.svg,DONE,5,teach/practice/assess/diagnose/reference complete
-4,mechanics,PHY-TOPIC-MECH-CIRCULAR,mechanics/uniform-circular-motion,等速圓周運動,../mechanics/assets/04_uniform-circular-motion.svg,NEXT,5,velocity tangent / centripetal acceleration / centripetal force
-5,mechanics,PHY-TOPIC-MECH-MOMENTUM,mechanics/momentum-collision,動量與碰撞,../mechanics/assets/05_momentum-collision.svg,QUEUED,5,momentum conservation / system boundary / collision types
+4,mechanics,PHY-TOPIC-MECH-CIRCULAR,mechanics/uniform-circular-motion,等速圓周運動,../mechanics/assets/04_uniform-circular-motion.svg,DONE,5,teach/practice/assess/diagnose/reference complete
+5,mechanics,PHY-TOPIC-MECH-MOMENTUM,mechanics/momentum-collision,動量與碰撞,../mechanics/assets/05_momentum-collision.svg,NEXT,5,momentum conservation / system boundary / collision types
 6,mechanics,PHY-TOPIC-MECH-ENERGY,mechanics/mechanical-energy,機械能轉換,../mechanics/assets/06_energy-ramp.svg,QUEUED,5,PE KE total mechanical energy / friction caveat
 7,mechanics,PHY-TOPIC-MECH-HOOKE,mechanics/hookes-law,胡克定律,../mechanics/assets/07_hookes-law.svg,QUEUED,5,F=-kx / equilibrium / restoring force direction
 8,mechanics,PHY-TOPIC-MECH-TORQUE,mechanics/torque-lever,力矩與槓桿,../mechanics/assets/08_torque-lever.svg,QUEUED,5,lever arm / torque sign / equilibrium
