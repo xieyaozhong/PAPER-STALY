@@ -1,0 +1,9 @@
+id,title,concept,format,license,status,path
+WO-001,波的基本量,wavelength amplitude frequency,SVG,PROJECT ORIGINAL,DONE,physics/waves-optics/assets/01_wave-parameters.svg
+WO-002,疊加原理,superposition,SVG,PROJECT ORIGINAL,DONE,physics/waves-optics/assets/02_superposition.svg
+WO-003,駐波,standing wave nodes antinodes,SVG,PROJECT ORIGINAL,DONE,physics/waves-optics/assets/03_standing-wave.svg
+WO-004,都卜勒效應,Doppler effect,SVG,PROJECT ORIGINAL,DONE,physics/waves-optics/assets/04_doppler-effect.svg
+WO-005,反射定律,law of reflection,SVG,PROJECT ORIGINAL,DONE,physics/waves-optics/assets/05_reflection.svg
+WO-006,折射,Snell law,SVG,PROJECT ORIGINAL,DONE,physics/waves-optics/assets/06_refraction.svg
+WO-007,凸透鏡成像,convex lens ray diagram,SVG,PROJECT ORIGINAL,DONE,physics/waves-optics/assets/07_convex-lens.svg
+WO-008,雙狹縫干涉,double slit interference,SVG,PROJECT ORIGINAL,DONE,physics/waves-optics/assets/08_double-slit.svg
