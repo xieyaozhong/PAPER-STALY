@@ -1,0 +1,43 @@
+{
+  "asset_id": "PHY-DIAGNOSE-MECH-PROJECTILE-001",
+  "family": "diagnose",
+  "title": "拋體運動｜最高點與分量迷思診斷",
+  "audience": "both",
+  "subject": "physics",
+  "topic": "mechanics/projectile-motion",
+  "learning_objectives": [
+    {"id":"PHY-MECH-PROJ-LO1","statement":"能正確分解初速度。"},
+    {"id":"PHY-MECH-PROJ-LO2","statement":"能理解水平與垂直運動可分開處理。"},
+    {"id":"PHY-MECH-PROJ-LO3","statement":"能正確判斷最高點的速度與加速度。"}
+  ],
+  "misconception_tags": [
+    "MIS-PROJ-TOP-ACCEL-ZERO",
+    "MIS-PROJ-HORIZONTAL-ACCEL",
+    "MIS-PROJ-COMPONENTS-DEPENDENT"
+  ],
+  "render": {
+    "seed": 210431,
+    "viewport": {"width":1440,"height":1080},
+    "theme": "paper-staly-physics-dark-v1",
+    "fallback_fonts": ["Noto Sans TC","PingFang TC","Microsoft JhengHei","Arial","sans-serif"]
+  },
+  "content": {
+    "summary": "以三個高頻錯誤說法診斷學生是否混淆最高點、水平速度與兩方向運動的獨立性。",
+    "formulae": ["aₓ = 0 · aᵧ = −g"],
+    "diagram": "../../../../mechanics/assets/03_projectile-motion.svg",
+    "diagnostic_intent": "判斷學生是否把『垂直速度為零』誤推成『總速度或加速度為零』，以及是否誤認重力會直接改變水平速度。",
+    "cases": [
+      "學生甲說：最高點時物體瞬間停住，所以速度和加速度都等於零。請指出錯誤。",
+      "學生乙說：物體飛得越久，重力會讓水平速度也逐漸變小。這反映什麼迷思？",
+      "學生丙說：水平初速度越大，物體一定會更晚落地，因為飛得更遠。請在同高度水平拋出的理想模型下診斷。"
+    ]
+  },
+  "qa": {
+    "checks": [
+      {"id":"QA-SCHEMA","description":"必要欄位完整","required":true},
+      {"id":"QA-MISCONCEPTION-MAP","description":"三個案例分別對應核心迷思","required":true},
+      {"id":"QA-IDEAL-MODEL","description":"落地時間判斷限制在忽略空氣阻力的理想模型","required":true},
+      {"id":"QA-DETERMINISTIC","description":"固定 seed 與 viewport","required":true}
+    ]
+  }
+}
