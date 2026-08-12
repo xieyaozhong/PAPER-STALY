@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">基礎串聯電路骨架</title>
+  <desc id="desc">包含電池、開關、電阻與電流方向的簡單串聯電路，可作為電學講義圖解模板。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0,0 L11,5.5 L0,11 Z" fill="#66d9ff"/></marker>
+  </defs>
+  <rect width="1200" height="675" fill="#08111c"/>
+  <text x="70" y="72" fill="#f7fbff" font-size="34" font-family="sans-serif" font-weight="700">基礎電路｜SIMPLE CIRCUIT</text>
+  <text x="70" y="108" fill="#8ea6b8" font-size="17" font-family="monospace">ELECTRICITY · SERIES CIRCUIT · CURRENT</text>
+  <g stroke="#d8e5ee" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M220 230 H500"/>
+    <path d="M700 230 H980 V505 H220 V230"/>
+    <path d="M500 230 L575 185"/>
+    <path d="M625 230 H700"/>
+  </g>
+  <circle cx="625" cy="230" r="8" fill="#d8e5ee"/>
+  <g transform="translate(220 365)">
+    <line x1="0" y1="-70" x2="0" y2="70" stroke="#ff9d36" stroke-width="7"/>
+    <line x1="35" y1="-42" x2="35" y2="42" stroke="#d8e5ee" stroke-width="7"/>
+    <text x="-45" y="5" fill="#ff9d36" font-size="26" font-family="sans-serif">+</text>
+    <text x="58" y="5" fill="#d8e5ee" font-size="26" font-family="sans-serif">−</text>
+    <text x="18" y="120" text-anchor="middle" fill="#f7fbff" font-size="21" font-family="sans-serif">電池 V</text>
+  </g>
+  <g transform="translate(980 365)">
+    <path d="M0,-80 l-24,20 48,35 -48,35 48,35 -48,35 24,20" stroke="#ff9d36" stroke-width="6" fill="none"/>
+    <text x="0" y="125" text-anchor="middle" fill="#f7fbff" font-size="21" font-family="sans-serif">電阻 R</text>
+  </g>
+  <text x="545" y="157" fill="#f7fbff" font-size="20" font-family="sans-serif">開關 S</text>
+  <line x1="355" y1="505" x2="535" y2="505" stroke="#66d9ff" stroke-width="5" marker-end="url(#arrow)"/>
+  <text x="425" y="485" fill="#66d9ff" font-size="22" font-family="sans-serif">傳統電流 I</text>
+  <rect x="365" y="585" width="470" height="52" rx="14" fill="#101f2f" stroke="#2f5268"/>
+  <text x="600" y="619" text-anchor="middle" fill="#f7fbff" font-size="20" font-family="sans-serif">可延伸：V = IR、串並聯、電功率、安培計／伏特計接法。</text>
+</svg>
