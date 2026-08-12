@@ -39,6 +39,15 @@
 
 素材清單：[`waves-optics/ASSET_MANIFEST.csv`](waves-optics/ASSET_MANIFEST.csv)
 
+### Electricity & Magnetism Starter Pack
+入口：[`electricity-magnetism/README.md`](electricity-magnetism/README.md)
+
+已完成 10 張統一風格原創 SVG：庫侖力、電場線、等位線、串並聯、Kirchhoff 定律、平行板電容器、條形磁鐵、載流導線磁場、洛倫茲力、法拉第電磁感應。
+
+可直接查看縮圖 Gallery：[`electricity-magnetism/index.html`](electricity-magnetism/index.html)
+
+素材清單：[`electricity-magnetism/ASSET_MANIFEST.csv`](electricity-magnetism/ASSET_MANIFEST.csv)
+
 ## 素材層級
 
 ### A — Raw / Data
