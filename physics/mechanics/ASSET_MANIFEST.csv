@@ -1,0 +1,11 @@
+id,title,concept,format,license,status,path,notes
+MECH-001,牛頓第二定律,net force and acceleration,SVG,PROJECT ORIGINAL,DONE,physics/mechanics/assets/01_newton-second-law.svg,淨力與加速度同向
+MECH-002,斜面受力,force decomposition,SVG,PROJECT ORIGINAL,DONE,physics/mechanics/assets/02_inclined-plane.svg,mg sinθ 與 mg cosθ
+MECH-003,拋體運動,projectile motion,SVG,PROJECT ORIGINAL,DONE,physics/mechanics/assets/03_projectile-motion.svg,水平等速＋垂直等加速度
+MECH-004,等速圓周運動,centripetal force,SVG,PROJECT ORIGINAL,DONE,physics/mechanics/assets/04_uniform-circular-motion.svg,速度切向／淨力指向圓心
+MECH-005,動量與碰撞,momentum conservation,SVG,PROJECT ORIGINAL,DONE,physics/mechanics/assets/05_momentum-collision.svg,一維碰撞骨架
+MECH-006,機械能轉換,energy conservation,SVG,PROJECT ORIGINAL,DONE,physics/mechanics/assets/06_energy-ramp.svg,PE 與 KE 轉換
+MECH-007,胡克定律,spring restoring force,SVG,PROJECT ORIGINAL,DONE,physics/mechanics/assets/07_hookes-law.svg,F=-kx
+MECH-008,力矩與槓桿,torque and lever arm,SVG,PROJECT ORIGINAL,DONE,physics/mechanics/assets/08_torque-lever.svg,τ=rF sinθ
+MECH-009,滑輪,mechanical advantage,SVG,PROJECT ORIGINAL,DONE,physics/mechanics/assets/09_pulley.svg,IMA=n
+MECH-010,運動圖像,kinematics graphs,SVG,PROJECT ORIGINAL,DONE,physics/mechanics/assets/10_motion-graph.svg,x-t v-t a-t 對照
