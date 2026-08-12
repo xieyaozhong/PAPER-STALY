@@ -42,10 +42,8 @@ export function renderError(root, errors) {
   root.innerHTML = `<div class="error-box"><strong>ASSET VALIDATION FAILED</strong><ul>${errors.map(e=>`<li>${esc(e)}</li>`).join("")}</ul></div>`;
 }
 
-export function renderTeachAsset(root, config) {
+function renderSharedShell(root, config, bodyHtml, secondaryHtml="") {
   const rand = deterministicRandom(config.render.seed);
-  const formula = config.content.formulae?.[0] || "";
-  const checks = (config.content.quick_check || []).map((q,i)=>`<li><strong>${i+1}.</strong> ${esc(q)}</li>`).join("");
   const objectives = config.learning_objectives.map(o=>`<li>${esc(o.statement)}</li>`).join("");
   const tags = config.misconception_tags.map(t=>`<span class="tag">${esc(t)}</span>`).join("");
   const qaCount = config.qa.checks.filter(c=>c.required).length;
@@ -62,13 +60,9 @@ export function renderTeachAsset(root, config) {
       </div>
     </header>
     <section class="asset-grid">
-      <article class="panel diagram-panel">
-        <div class="meta-label">DIAGRAM</div>
-        <img src="${esc(config.content.diagram)}" alt="${esc(config.title)} 圖解" />
-        ${formula ? `<div class="formula-card">${esc(formula)}</div>` : ""}
-        <div class="quick-check"><div class="meta-label">QUICK CHECK</div><ol>${checks}</ol></div>
-      </article>
+      <article class="panel diagram-panel">${bodyHtml}</article>
       <aside class="panel">
+        ${secondaryHtml}
         <div class="meta-label">LEARNING OBJECTIVES</div>
         <ul>${objectives}</ul>
         <div class="meta-label">MISCONCEPTION TAGS</div>
@@ -81,6 +75,67 @@ export function renderTeachAsset(root, config) {
   </main>`;
 }
 
+function diagramBlock(config) {
+  return `<div class="meta-label">DIAGRAM</div><img src="${esc(config.content.diagram)}" alt="${esc(config.title)} 圖解" />`;
+}
+
+function formulaBlock(config) {
+  const formula = config.content.formulae?.[0] || "";
+  return formula ? `<div class="formula-card">${esc(formula)}</div>` : "";
+}
+
+function orderedItems(items=[], label="ITEMS") {
+  if (!items.length) return "";
+  return `<div class="quick-check"><div class="meta-label">${esc(label)}</div><ol>${items.map((q,i)=>`<li><strong>${i+1}.</strong> ${esc(q)}</li>`).join("")}</ol></div>`;
+}
+
+export function renderTeachAsset(root, config) {
+  renderSharedShell(
+    root,
+    config,
+    `${diagramBlock(config)}${formulaBlock(config)}${orderedItems(config.content.quick_check || [], "QUICK CHECK")}`
+  );
+}
+
+export function renderPracticeAsset(root, config) {
+  renderSharedShell(
+    root,
+    config,
+    `${diagramBlock(config)}${formulaBlock(config)}${orderedItems(config.content.prompts || config.content.quick_check || [], "PRACTICE")}`,
+    `<div class="meta-label">MODE</div><p class="meta-value">先作答，再對照提示；不直接顯示完整解答。</p>`
+  );
+}
+
+export function renderAssessAsset(root, config) {
+  const questions = config.content.questions || config.content.quick_check || [];
+  renderSharedShell(
+    root,
+    config,
+    `${diagramBlock(config)}${orderedItems(questions, "ASSESSMENT")}`,
+    `<div class="meta-label">SCORING</div><p class="meta-value">${esc(config.content.scoring || "依 manifest / teacher key 評分")}</p>`
+  );
+}
+
+export function renderDiagnoseAsset(root, config) {
+  const cases = config.content.cases || config.content.quick_check || [];
+  renderSharedShell(
+    root,
+    config,
+    `${diagramBlock(config)}${formulaBlock(config)}${orderedItems(cases, "DIAGNOSE")}`,
+    `<div class="meta-label">DIAGNOSTIC INTENT</div><p class="meta-value">${esc(config.content.diagnostic_intent || "辨識概念錯誤，而非只判斷答案對錯。")}</p>`
+  );
+}
+
+export function renderReferenceAsset(root, config) {
+  const references = config.content.references || config.content.quick_check || [];
+  renderSharedShell(
+    root,
+    config,
+    `${diagramBlock(config)}${formulaBlock(config)}${orderedItems(references, "REFERENCE NOTES")}`,
+    `<div class="meta-label">USE</div><p class="meta-value">${esc(config.content.use_note || "快速查找、複習與解題時引用。")}</p>`
+  );
+}
+
 export async function bootAsset({configUrl="./asset.json"}={}) {
   const root = document.querySelector("#asset-root");
   if (!root) throw new Error("#asset-root is required");
@@ -89,7 +144,11 @@ export async function bootAsset({configUrl="./asset.json"}={}) {
     const errors = validateAssetConfig(config);
     if (errors.length) return renderError(root, errors);
     if (config.family === "teach") return renderTeachAsset(root, config);
-    renderError(root, [`Renderer for family '${config.family}' is not implemented yet.`]);
+    if (config.family === "practice") return renderPracticeAsset(root, config);
+    if (config.family === "assess") return renderAssessAsset(root, config);
+    if (config.family === "diagnose") return renderDiagnoseAsset(root, config);
+    if (config.family === "reference") return renderReferenceAsset(root, config);
+    renderError(root, [`Unknown family '${config.family}'.`]);
   } catch (error) {
     renderError(root, [error.message]);
   }
