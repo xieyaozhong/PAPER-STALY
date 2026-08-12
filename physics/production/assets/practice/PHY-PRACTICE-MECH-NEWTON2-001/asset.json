@@ -1,0 +1,40 @@
+{
+  "asset_id": "PHY-PRACTICE-MECH-NEWTON2-001",
+  "family": "practice",
+  "title": "牛頓第二定律｜三題引導練習",
+  "audience": "student",
+  "subject": "physics",
+  "topic": "mechanics/newton-second-law",
+  "learning_objectives": [
+    {"id":"PHY-MECH-N2-LO1","statement":"能辨識淨力、質量與加速度三者的關係。"},
+    {"id":"PHY-MECH-N2-LO2","statement":"能根據淨力方向判斷加速度方向。"}
+  ],
+  "misconception_tags": [
+    "MIS-N2-FORCE-MEANS-VELOCITY",
+    "MIS-N2-USE-SINGLE-FORCE-NOT-NET"
+  ],
+  "render": {
+    "seed": 210211,
+    "viewport": {"width":1440,"height":1080},
+    "theme": "paper-staly-physics-dark-v1",
+    "fallback_fonts": ["Noto Sans TC","PingFang TC","Microsoft JhengHei","Arial","sans-serif"]
+  },
+  "content": {
+    "summary": "用三個逐步增加難度的情境練習淨力、方向與 F = ma，不先揭露完整解答。",
+    "formulae": ["F_net = ma"],
+    "diagram": "../../../../mechanics/assets/01_newton-second-law.svg",
+    "prompts": [
+      "2 kg 物體受到向右 10 N、向左 4 N 的水平力。先求淨力，再判斷加速度方向。",
+      "同一物體的淨力從 6 N 增加到 12 N，質量不變。加速度如何改變？",
+      "一台車正向右行駛，但此刻淨力向左。說明速度方向與加速度方向是否必須相同。"
+    ]
+  },
+  "qa": {
+    "checks": [
+      {"id":"QA-SCHEMA","description":"必要欄位完整","required":true},
+      {"id":"QA-OBJECTIVE-TRACE","description":"每題可追溯至 learning objective","required":true},
+      {"id":"QA-NO-ANSWER-LEAK","description":"學生版不直接顯示完整答案","required":true},
+      {"id":"QA-DETERMINISTIC","description":"固定 seed 與 viewport","required":true}
+    ]
+  }
+}
