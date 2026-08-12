@@ -9,16 +9,39 @@ node tools/validate-all.mjs
 
 檢查內容：
 
-- registry path
+- duplicate asset ID / path / entrypoint
 - `asset.json`
 - `manifest.json`
 - `index.html`
-- required metadata
+- registry / config / manifest 一致性
+- family-specific required fields
 - render seed / viewport / fallback fonts
 - diagram path
+- manifest source path
+- learning objective / misconception traceability
 - QA checks
 
-## 2. Rebuild production index
+## 2. Check topic family coverage
+
+```bash
+node tools/check-topic-coverage.mjs
+```
+
+這一步以 `registry/topics.json` 與 topic blueprint 為準，確認：
+
+- topic registry 與 blueprint ID 一致
+- source diagram 存在
+- 每個正式 topic 是否具備預期的 asset families
+- asset 使用的 learning objective 是否屬於該 topic
+- misconception tag 是否屬於該 topic
+
+目前正式 topic 預設要求：
+
+```text
+teach + practice + assess + diagnose + reference
+```
+
+## 3. Rebuild production index
 
 ```bash
 node tools/build-index.mjs
@@ -30,9 +53,9 @@ node tools/build-index.mjs
 physics/production/index.html
 ```
 
-索引只讀 `registry/assets.json`，不要手動維護兩套 asset list。
+索引只讀 `registry/assets.json`，並依 topic 分組。
 
-## 3. Batch render PNG
+## 4. Batch render PNG
 
 ```bash
 node tools/render-all.mjs
@@ -59,7 +82,7 @@ node tools/render-all.mjs
 physics/production/_renders/<ASSET_ID>.png
 ```
 
-## 4. Manual preview
+## 5. Manual preview
 
 asset 使用 ES module + fetch 讀取 `asset.json`，因此建議透過本機 HTTP server 預覽：
 
@@ -74,14 +97,18 @@ python -m http.server 8000
 http://localhost:8000/physics/production/
 ```
 
-## 5. Production order
+## 6. Production order
 
 固定順序：
 
 ```text
-asset source
+topic blueprint
   ↓
-validate
+asset source/config
+  ↓
+validate-all
+  ↓
+check-topic-coverage
   ↓
 build index
   ↓
@@ -92,4 +119,4 @@ visual QA
 publish / compose
 ```
 
-不要跳過 validation 直接 render。
+不要跳過 validation 或 topic coverage 直接 render。
