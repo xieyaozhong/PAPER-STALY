@@ -66,6 +66,15 @@
 
 素材清單：[`modern-physics/ASSET_MANIFEST.csv`](modern-physics/ASSET_MANIFEST.csv)
 
+### Measurement & Experimental Physics Starter Pack
+入口：[`measurement/README.md`](measurement/README.md)
+
+已完成 8 張統一風格原創 SVG：SI 基本量與單位、量綱分析、準確度與精密度、測量不確定度、重複量測與誤差棒、線性擬合、向量分解、實驗資料流程。
+
+可直接查看縮圖 Gallery：[`measurement/index.html`](measurement/index.html)
+
+素材清單：[`measurement/ASSET_MANIFEST.csv`](measurement/ASSET_MANIFEST.csv)
+
 ## 素材層級
 
 ### A — Raw / Data
@@ -143,7 +152,7 @@
 - [`assets/diagrams/simple-circuit.svg`](assets/diagrams/simple-circuit.svg)
 - [`assets/diagrams/field-lines.svg`](assets/diagrams/field-lines.svg)
 
-目前章節級 Starter Pack 共 **47 張原創 SVG**，另有 5 張共用基礎 SVG。
+目前章節級 Starter Pack 共 **55 張原創 SVG**，另有 5 張共用基礎 SVG。
 
 ## 已加入的 Lucide 物理 icon starter pack
 
