@@ -1,0 +1,42 @@
+{
+  "asset_id": "PHY-PRACTICE-MECH-PROJECTILE-001",
+  "family": "practice",
+  "title": "拋體運動｜分量式引導練習",
+  "audience": "student",
+  "subject": "physics",
+  "topic": "mechanics/projectile-motion",
+  "learning_objectives": [
+    {"id":"PHY-MECH-PROJ-LO1","statement":"能將初速度分解為水平與垂直分量。"},
+    {"id":"PHY-MECH-PROJ-LO2","statement":"能分別描述理想拋體的水平與垂直運動。"},
+    {"id":"PHY-MECH-PROJ-LO3","statement":"能判斷最高點的速度與加速度。"}
+  ],
+  "misconception_tags": [
+    "MIS-PROJ-TOP-ACCEL-ZERO",
+    "MIS-PROJ-HORIZONTAL-ACCEL",
+    "MIS-PROJ-COMPONENTS-DEPENDENT"
+  ],
+  "render": {
+    "seed": 210411,
+    "viewport": {"width":1440,"height":1080},
+    "theme": "paper-staly-physics-dark-v1",
+    "fallback_fonts": ["Noto Sans TC","PingFang TC","Microsoft JhengHei","Arial","sans-serif"]
+  },
+  "content": {
+    "summary": "以分量為核心的三題練習，從初速度分解一路做到最高點判讀。",
+    "formulae": ["v₀x = v₀ cosθ · v₀y = v₀ sinθ"],
+    "diagram": "../../../../mechanics/assets/03_projectile-motion.svg",
+    "prompts": [
+      "一物體以速度 v₀、仰角 θ 拋出。先寫出 v₀x 與 v₀y。",
+      "忽略空氣阻力，飛行 2 秒後的水平速度與剛拋出時相比如何？說明原因。",
+      "在軌跡最高點，列出 vₓ、vᵧ、aₓ、aᵧ 哪些為零、哪些不為零。"
+    ]
+  },
+  "qa": {
+    "checks": [
+      {"id":"QA-SCHEMA","description":"必要欄位完整","required":true},
+      {"id":"QA-COMPONENTS","description":"練習以水平／垂直分量分開處理","required":true},
+      {"id":"QA-NO-ANSWER-LEAK","description":"學生版不直接顯示完整解答","required":true},
+      {"id":"QA-DETERMINISTIC","description":"固定 seed 與 viewport","required":true}
+    ]
+  }
+}
