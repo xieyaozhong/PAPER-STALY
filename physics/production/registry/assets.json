@@ -1,5 +1,5 @@
 {
-  "registry_version": "1.0.0",
+  "registry_version": "1.1.0",
   "assets": [
     {
       "asset_id": "PHY-TEACH-MECH-NEWTON2-001",
@@ -11,16 +11,60 @@
       "entrypoint": "assets/teach/PHY-TEACH-MECH-NEWTON2-001/index.html",
       "status": "active",
       "seed": 210201,
-      "learning_objectives": [
-        "PHY-MECH-N2-LO1",
-        "PHY-MECH-N2-LO2",
-        "PHY-MECH-N2-LO3"
-      ],
-      "misconception_tags": [
-        "MIS-N2-FORCE-MEANS-VELOCITY",
-        "MIS-N2-USE-SINGLE-FORCE-NOT-NET",
-        "MIS-N2-MASS-CHANGES-DIRECTION"
-      ]
+      "learning_objectives": ["PHY-MECH-N2-LO1","PHY-MECH-N2-LO2","PHY-MECH-N2-LO3"],
+      "misconception_tags": ["MIS-N2-FORCE-MEANS-VELOCITY","MIS-N2-USE-SINGLE-FORCE-NOT-NET","MIS-N2-MASS-CHANGES-DIRECTION"]
+    },
+    {
+      "asset_id": "PHY-PRACTICE-MECH-NEWTON2-001",
+      "family": "practice",
+      "title": "牛頓第二定律｜三題引導練習",
+      "audience": "student",
+      "topic": "mechanics/newton-second-law",
+      "path": "assets/practice/PHY-PRACTICE-MECH-NEWTON2-001",
+      "entrypoint": "assets/practice/PHY-PRACTICE-MECH-NEWTON2-001/index.html",
+      "status": "active",
+      "seed": 210211,
+      "learning_objectives": ["PHY-MECH-N2-LO1","PHY-MECH-N2-LO2"],
+      "misconception_tags": ["MIS-N2-FORCE-MEANS-VELOCITY","MIS-N2-USE-SINGLE-FORCE-NOT-NET"]
+    },
+    {
+      "asset_id": "PHY-ASSESS-MECH-NEWTON2-001",
+      "family": "assess",
+      "title": "牛頓第二定律｜概念檢核",
+      "audience": "student",
+      "topic": "mechanics/newton-second-law",
+      "path": "assets/assess/PHY-ASSESS-MECH-NEWTON2-001",
+      "entrypoint": "assets/assess/PHY-ASSESS-MECH-NEWTON2-001/index.html",
+      "status": "active",
+      "seed": 210221,
+      "learning_objectives": ["PHY-MECH-N2-LO1","PHY-MECH-N2-LO2","PHY-MECH-N2-LO3"],
+      "misconception_tags": ["MIS-N2-FORCE-MEANS-VELOCITY","MIS-N2-USE-SINGLE-FORCE-NOT-NET","MIS-N2-MASS-CHANGES-DIRECTION"]
+    },
+    {
+      "asset_id": "PHY-DIAGNOSE-MECH-NEWTON2-001",
+      "family": "diagnose",
+      "title": "牛頓第二定律｜常見迷思診斷",
+      "audience": "both",
+      "topic": "mechanics/newton-second-law",
+      "path": "assets/diagnose/PHY-DIAGNOSE-MECH-NEWTON2-001",
+      "entrypoint": "assets/diagnose/PHY-DIAGNOSE-MECH-NEWTON2-001/index.html",
+      "status": "active",
+      "seed": 210231,
+      "learning_objectives": ["PHY-MECH-N2-LO1","PHY-MECH-N2-LO2","PHY-MECH-N2-LO3"],
+      "misconception_tags": ["MIS-N2-FORCE-MEANS-VELOCITY","MIS-N2-USE-SINGLE-FORCE-NOT-NET","MIS-N2-MASS-CHANGES-DIRECTION"]
+    },
+    {
+      "asset_id": "PHY-REFERENCE-MECH-NEWTON2-001",
+      "family": "reference",
+      "title": "牛頓第二定律｜公式與判讀卡",
+      "audience": "both",
+      "topic": "mechanics/newton-second-law",
+      "path": "assets/reference/PHY-REFERENCE-MECH-NEWTON2-001",
+      "entrypoint": "assets/reference/PHY-REFERENCE-MECH-NEWTON2-001/index.html",
+      "status": "active",
+      "seed": 210241,
+      "learning_objectives": ["PHY-MECH-N2-LO1","PHY-MECH-N2-LO2"],
+      "misconception_tags": ["MIS-N2-FORCE-MEANS-VELOCITY","MIS-N2-USE-SINGLE-FORCE-NOT-NET"]
     }
   ]
 }
