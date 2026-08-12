@@ -6,10 +6,10 @@
 
 目前已有：
 
-- **3 個正式 topic**
+- **4 個正式 topic**
 - **5 個 asset family**
-- **15 個 registered assets**
-- 3 份 topic blueprint
+- **20 個 registered assets**
+- 4 份 topic blueprint
 - asset schema + topic schema
 - batch validation
 - topic coverage validation
@@ -21,12 +21,15 @@
 1. `mechanics/newton-second-law`
 2. `mechanics/inclined-plane`
 3. `mechanics/projectile-motion`
+4. `mechanics/uniform-circular-motion`
 
-三個 topic 都已完整覆蓋：
+四個 topic 都已完整覆蓋：
 
 ```text
 teach + practice + assess + diagnose + reference
 ```
+
+下一個 migration topic：`mechanics/momentum-collision`。
 
 ## 固定架構
 
@@ -55,6 +58,7 @@ production/
 │  ├─ check-topic-coverage.mjs
 │  ├─ build-index.mjs
 │  └─ render-all.mjs
+├─ MIGRATION_QUEUE.csv
 ├─ RUNBOOK.md
 └─ index.html
 ```
@@ -111,43 +115,33 @@ PNG / PDF 均視為可重建輸出。
 
 Blueprint：[`topics/mechanics/newton-second-law.json`](topics/mechanics/newton-second-law.json)
 
-Assets：
-
-- `PHY-TEACH-MECH-NEWTON2-001`
-- `PHY-PRACTICE-MECH-NEWTON2-001`
-- `PHY-ASSESS-MECH-NEWTON2-001`
-- `PHY-DIAGNOSE-MECH-NEWTON2-001`
-- `PHY-REFERENCE-MECH-NEWTON2-001`
+Assets：`PHY-TEACH-MECH-NEWTON2-001`、`PHY-PRACTICE-MECH-NEWTON2-001`、`PHY-ASSESS-MECH-NEWTON2-001`、`PHY-DIAGNOSE-MECH-NEWTON2-001`、`PHY-REFERENCE-MECH-NEWTON2-001`
 
 ### 斜面受力
 
 Blueprint：[`topics/mechanics/inclined-plane.json`](topics/mechanics/inclined-plane.json)
 
-Assets：
-
-- `PHY-TEACH-MECH-INCLINE-001`
-- `PHY-PRACTICE-MECH-INCLINE-001`
-- `PHY-ASSESS-MECH-INCLINE-001`
-- `PHY-DIAGNOSE-MECH-INCLINE-001`
-- `PHY-REFERENCE-MECH-INCLINE-001`
+Assets：`PHY-TEACH-MECH-INCLINE-001`、`PHY-PRACTICE-MECH-INCLINE-001`、`PHY-ASSESS-MECH-INCLINE-001`、`PHY-DIAGNOSE-MECH-INCLINE-001`、`PHY-REFERENCE-MECH-INCLINE-001`
 
 ### 拋體運動
 
 Blueprint：[`topics/mechanics/projectile-motion.json`](topics/mechanics/projectile-motion.json)
 
-Assets：
+Assets：`PHY-TEACH-MECH-PROJECTILE-001`、`PHY-PRACTICE-MECH-PROJECTILE-001`、`PHY-ASSESS-MECH-PROJECTILE-001`、`PHY-DIAGNOSE-MECH-PROJECTILE-001`、`PHY-REFERENCE-MECH-PROJECTILE-001`
 
-- `PHY-TEACH-MECH-PROJECTILE-001`
-- `PHY-PRACTICE-MECH-PROJECTILE-001`
-- `PHY-ASSESS-MECH-PROJECTILE-001`
-- `PHY-DIAGNOSE-MECH-PROJECTILE-001`
-- `PHY-REFERENCE-MECH-PROJECTILE-001`
+### 等速圓周運動
+
+Blueprint：[`topics/mechanics/uniform-circular-motion.json`](topics/mechanics/uniform-circular-motion.json)
+
+Assets：`PHY-TEACH-MECH-CIRCULAR-001`、`PHY-PRACTICE-MECH-CIRCULAR-001`、`PHY-ASSESS-MECH-CIRCULAR-001`、`PHY-DIAGNOSE-MECH-CIRCULAR-001`、`PHY-REFERENCE-MECH-CIRCULAR-001`
 
 總入口：[`index.html`](index.html)
 
 Asset Registry：[`registry/assets.json`](registry/assets.json)
 
 Topic Registry：[`registry/topics.json`](registry/topics.json)
+
+Migration Queue：[`MIGRATION_QUEUE.csv`](MIGRATION_QUEUE.csv)
 
 ## Batch workflow
 
