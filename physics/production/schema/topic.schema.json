@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://paper-staly.local/schema/physics-topic.schema.json",
+  "title": "PAPER-STALY Physics Topic Blueprint",
+  "type": "object",
+  "required": [
+    "topic_id",
+    "topic",
+    "title",
+    "domain",
+    "source_diagram",
+    "learning_objectives",
+    "misconception_tags",
+    "expected_families"
+  ],
+  "properties": {
+    "topic_id": {"type":"string","pattern":"^PHY-TOPIC-[A-Z0-9-]+$"},
+    "topic": {"type":"string","minLength":1},
+    "title": {"type":"string","minLength":1},
+    "domain": {"type":"string","minLength":1},
+    "source_diagram": {"type":"string","minLength":1},
+    "learning_objectives": {
+      "type":"array",
+      "minItems":1,
+      "items":{"type":"object","required":["id","statement"],"properties":{"id":{"type":"string"},"statement":{"type":"string"}}}
+    },
+    "misconception_tags": {
+      "type":"array",
+      "items":{"type":"object","required":["id","description"],"properties":{"id":{"type":"string"},"description":{"type":"string"}}}
+    },
+    "expected_families": {
+      "type":"array",
+      "items":{"enum":["teach","practice","assess","diagnose","reference"]},
+      "minItems":1,
+      "uniqueItems":true
+    }
+  }
+}
