@@ -1,0 +1,83 @@
+{
+  "asset_id": "PHY-TEACH-MECH-NEWTON2-001",
+  "family": "teach",
+  "title": "牛頓第二定律｜淨力決定加速度",
+  "audience": "student",
+  "subject": "physics",
+  "topic": "mechanics/newton-second-law",
+  "learning_objectives": [
+    {
+      "id": "PHY-MECH-N2-LO1",
+      "statement": "能辨識淨力、質量與加速度三者的關係。"
+    },
+    {
+      "id": "PHY-MECH-N2-LO2",
+      "statement": "能根據淨力方向判斷加速度方向。"
+    },
+    {
+      "id": "PHY-MECH-N2-LO3",
+      "statement": "能區分單一作用力與所有力的向量合成。"
+    }
+  ],
+  "misconception_tags": [
+    "MIS-N2-FORCE-MEANS-VELOCITY",
+    "MIS-N2-USE-SINGLE-FORCE-NOT-NET",
+    "MIS-N2-MASS-CHANGES-DIRECTION"
+  ],
+  "render": {
+    "seed": 210201,
+    "viewport": {
+      "width": 1440,
+      "height": 1080
+    },
+    "theme": "paper-staly-physics-dark-v1",
+    "fallback_fonts": [
+      "Noto Sans TC",
+      "PingFang TC",
+      "Microsoft JhengHei",
+      "Arial",
+      "sans-serif"
+    ]
+  },
+  "content": {
+    "summary": "物體的加速度由淨力決定。當質量固定時，淨力越大，加速度越大；淨力方向就是加速度方向。",
+    "formulae": [
+      "F_net = ma"
+    ],
+    "diagram": "../../../../mechanics/assets/01_newton-second-law.svg",
+    "quick_check": [
+      "若物體受到多個方向不同的力，代入 F = ma 的 F 應該是哪一個力？",
+      "質量不變時，把淨力加倍，加速度會如何改變？",
+      "物體正在向右運動，但淨力向左時，加速度方向為何？"
+    ]
+  },
+  "qa": {
+    "checks": [
+      {
+        "id": "QA-SCHEMA",
+        "description": "asset config 通過必要欄位 validation",
+        "required": true
+      },
+      {
+        "id": "QA-DIAGRAM-PATH",
+        "description": "diagram path 可解析且來源可追溯",
+        "required": true
+      },
+      {
+        "id": "QA-OBJECTIVE-TRACE",
+        "description": "內容可追溯至 learning objectives",
+        "required": true
+      },
+      {
+        "id": "QA-MISCONCEPTION",
+        "description": "至少一個常見迷思標籤被明確記錄",
+        "required": true
+      },
+      {
+        "id": "QA-RENDER-DETERMINISTIC",
+        "description": "固定 seed 與 viewport 可重建相同輸出",
+        "required": true
+      }
+    ]
+  }
+}
