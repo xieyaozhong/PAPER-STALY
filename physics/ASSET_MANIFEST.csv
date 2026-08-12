@@ -18,7 +18,7 @@ PHY-016,experiment,Tracker Video Analysis,運動影片分析,Open Source Physics
 PHY-017,electricity,CircuitJS1,電路互動模擬,CircuitJS1,https://github.com/sharpie7/circuitjs1,JS,GREEN,A,TO_SOURCE,physics/tools/circuitjs1,GPL-2+
 PHY-018,creative_code,p5.js,互動圖解與粒子動畫,p5.js,https://github.com/processing/p5.js,JS,GREEN,A,TO_SOURCE,physics/tools/p5js,LGPL-2.1
 PHY-019,measurement,NIST Physics,SI／量測／量子實景,NIST,https://www.nist.gov/physics,PNG/Data,YELLOW,A,TO_SOURCE,physics/reference/nist,個別圖片 credit 必查
-PHY-020,icons,Lucide physics subset,教材 UI 圖示,Lucide,https://github.com/lucide-icons/lucide,SVG,GREEN,A,TO_SOURCE,physics/assets/icons/lucide,ISC
+PHY-020,icons,Lucide physics subset,教材 UI 圖示,Lucide,https://github.com/lucide-icons/lucide,SVG,GREEN,A,DONE,physics/assets/icons/lucide,已加入 10 個 starter icons + LICENSE
 PHY-021,icons,Tabler physics subset,教材 UI 圖示,Tabler Icons,https://github.com/tabler/tabler-icons,SVG,GREEN,A,TO_SOURCE,physics/assets/icons/tabler,MIT
 PHY-022,icons,Material Symbols subset,教材 UI 補充圖示,Material Symbols,https://fonts.google.com/icons,SVG,GREEN,B,TO_SOURCE,physics/assets/icons/material,Apache-2.0
 PHY-023,modern_physics,CMS Jupyter teaching data,粒子資料分析教材,CERN Open Data,https://opendata.cern.ch/record/cms-5101,IPYNB/CSV,GREEN,A,TO_SOURCE,physics/data/cern-cms-jupyter,Portal data CC0；repo license 再核對
@@ -32,4 +32,4 @@ PHY-030,thermodynamics,熱傳三方式模板,教材圖解,SELF,,SVG,GREEN,A,PLAN
 PHY-031,fluids,壓力與浮力模板,教材圖解,SELF,,SVG,GREEN,A,PLANNED,physics/assets/diagrams/fluids-pressure-buoyancy.svg,液柱壓力與浮力
 PHY-032,magnetism,磁場線模板,教材圖解,SELF,,SVG,GREEN,A,PLANNED,physics/assets/diagrams/magnetic-field.svg,條形磁鐵／電流磁場
 PHY-033,modern_physics,光電效應模板,教材圖解,SELF,,SVG,GREEN,A,PLANNED,physics/assets/diagrams/photoelectric-effect.svg,光子能量與逸出電子
-PHY-034,visual_system,物理配色與箭頭語意,共用設計系統,SELF,,CSS/MD,GREEN,S,PLANNED,physics/VISUAL_SYSTEM.md,力／速度／能量／電場／磁場語意
+PHY-034,visual_system,物理配色與箭頭語意,共用設計系統,SELF,,CSS/MD,GREEN,S,DONE,physics/VISUAL_SYSTEM.md,力／速度／能量／電場／磁場語意
