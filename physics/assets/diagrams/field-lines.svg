@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">電場線示意骨架</title>
+  <desc id="desc">正負點電荷之間的電場線概念圖，可延伸電場方向、場強與等位線教材。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#66d9ff"/></marker>
+  </defs>
+  <rect width="1200" height="675" fill="#08111c"/>
+  <text x="70" y="72" fill="#f7fbff" font-size="34" font-family="sans-serif" font-weight="700">電場線｜ELECTRIC FIELD LINES</text>
+  <text x="70" y="108" fill="#8ea6b8" font-size="17" font-family="monospace">ELECTRICITY · FIELD DIRECTION · CHARGE</text>
+  <circle cx="350" cy="345" r="70" fill="#ff9d36"/>
+  <circle cx="850" cy="345" r="70" fill="#163b54" stroke="#66d9ff" stroke-width="5"/>
+  <text x="350" y="362" text-anchor="middle" fill="#08111c" font-size="54" font-family="sans-serif" font-weight="700">+</text>
+  <text x="850" y="362" text-anchor="middle" fill="#f7fbff" font-size="58" font-family="sans-serif" font-weight="700">−</text>
+  <g fill="none" stroke="#66d9ff" stroke-width="4" marker-end="url(#arrow)">
+    <path d="M420 345 C540 345 660 345 780 345"/>
+    <path d="M410 305 C530 225 670 225 790 305"/>
+    <path d="M410 385 C530 465 670 465 790 385"/>
+    <path d="M390 285 C475 145 725 145 810 285"/>
+    <path d="M390 405 C475 545 725 545 810 405"/>
+    <path d="M345 275 C345 170 290 145 215 135"/>
+    <path d="M345 415 C345 520 290 545 215 555"/>
+    <path d="M855 275 C855 170 910 145 985 135"/>
+    <path d="M855 415 C855 520 910 545 985 555"/>
+  </g>
+  <g font-family="sans-serif">
+    <text x="250" y="455" fill="#ff9d36" font-size="22">正電荷：場線向外</text>
+    <text x="765" y="455" fill="#66d9ff" font-size="22">負電荷：場線向內</text>
+    <rect x="190" y="585" width="820" height="52" rx="14" fill="#101f2f" stroke="#2f5268"/>
+    <text x="600" y="619" text-anchor="middle" fill="#f7fbff" font-size="20">場線是視覺化工具，不是空間中真實存在的「線」；疏密只用來表現相對場強。</text>
+  </g>
+</svg>
