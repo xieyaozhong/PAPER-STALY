@@ -28,20 +28,16 @@
 ### Mechanics Starter Pack
 入口：[`mechanics/README.md`](mechanics/README.md)
 
-目前已完成 10 張統一風格原創 SVG：
-
-1. 牛頓第二定律
-2. 斜面受力
-3. 拋體運動
-4. 等速圓周運動
-5. 動量與碰撞
-6. 機械能轉換
-7. 胡克定律
-8. 力矩與槓桿
-9. 滑輪與機械利益
-10. x–t / v–t / a–t 運動圖像
+已完成 10 張統一風格原創 SVG：牛頓第二定律、斜面受力、拋體運動、等速圓周運動、動量碰撞、機械能、胡克定律、力矩、滑輪、運動圖像。
 
 可直接查看縮圖 Gallery：[`mechanics/index.html`](mechanics/index.html)
+
+### Waves & Optics Starter Pack
+入口：[`waves-optics/README.md`](waves-optics/README.md)
+
+已完成 8 張統一風格原創 SVG：波的基本量、疊加、駐波、都卜勒效應、反射、折射、凸透鏡成像、雙狹縫干涉。
+
+素材清單：[`waves-optics/ASSET_MANIFEST.csv`](waves-optics/ASSET_MANIFEST.csv)
 
 ## 素材層級
 
@@ -120,23 +116,10 @@
 - [`assets/diagrams/simple-circuit.svg`](assets/diagrams/simple-circuit.svg)
 - [`assets/diagrams/field-lines.svg`](assets/diagrams/field-lines.svg)
 
-這些 SVG 為本專案自製，可直接作為後續講義的統一圖解骨架。
-
 ## 已加入的 Lucide 物理 icon starter pack
 
 位置：[`assets/icons/lucide/`](assets/icons/lucide/)
 
-目前包含：
-
-- `atom.svg`
-- `magnet.svg`
-- `battery.svg`
-- `gauge.svg`
-- `waves-horizontal.svg`
-- `thermometer.svg`
-- `orbit.svg`
-- `ruler.svg`
-- `scale.svg`
-- `telescope.svg`
+目前包含 `atom.svg`、`magnet.svg`、`battery.svg`、`gauge.svg`、`waves-horizontal.svg`、`thermometer.svg`、`orbit.svg`、`ruler.svg`、`scale.svg`、`telescope.svg`。
 
 Lucide 為 ISC 授權；授權 notice 已一併保存在 [`assets/icons/lucide/LICENSE.txt`](assets/icons/lucide/LICENSE.txt)。
