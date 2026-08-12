@@ -1,0 +1,42 @@
+{
+  "asset_id": "PHY-TEACH-MECH-PROJECTILE-001",
+  "family": "teach",
+  "title": "拋體運動｜把一條拋物線拆成兩個方向",
+  "audience": "student",
+  "subject": "physics",
+  "topic": "mechanics/projectile-motion",
+  "learning_objectives": [
+    {"id":"PHY-MECH-PROJ-LO1","statement":"能將初速度分解為水平與垂直分量。"},
+    {"id":"PHY-MECH-PROJ-LO2","statement":"能分別描述理想拋體的水平等速度與垂直等加速度運動。"},
+    {"id":"PHY-MECH-PROJ-LO3","statement":"能判斷最高點的速度分量與重力加速度方向。"}
+  ],
+  "misconception_tags": [
+    "MIS-PROJ-TOP-ACCEL-ZERO",
+    "MIS-PROJ-HORIZONTAL-ACCEL",
+    "MIS-PROJ-COMPONENTS-DEPENDENT"
+  ],
+  "render": {
+    "seed": 210401,
+    "viewport": {"width":1440,"height":1080},
+    "theme": "paper-staly-physics-dark-v1",
+    "fallback_fonts": ["Noto Sans TC","PingFang TC","Microsoft JhengHei","Arial","sans-serif"]
+  },
+  "content": {
+    "summary": "理想拋體可以拆成互相獨立的兩個方向：水平方向保持等速度，垂直方向只受重力造成等加速度。",
+    "formulae": ["v₀x = v₀ cosθ · v₀y = v₀ sinθ · aₓ = 0 · aᵧ = −g"],
+    "diagram": "../../../../mechanics/assets/03_projectile-motion.svg",
+    "quick_check": [
+      "忽略空氣阻力時，拋體飛行過程中的水平速度會改變嗎？",
+      "到達最高點時，垂直速度 vᵧ 是多少？此時重力加速度是否為零？",
+      "為什麼可以把水平與垂直運動分開列式，最後再合成位置？"
+    ]
+  },
+  "qa": {
+    "checks": [
+      {"id":"QA-SCHEMA","description":"必要欄位完整","required":true},
+      {"id":"QA-MODEL","description":"明確標示忽略空氣阻力的理想模型","required":true},
+      {"id":"QA-APEX","description":"最高點只令 v_y = 0，不令 g = 0","required":true},
+      {"id":"QA-DETERMINISTIC","description":"固定 seed 與 viewport","required":true}
+    ]
+  }
+}
