@@ -1,26 +1,9 @@
 {
-  "registry_version": "1.1.0",
+  "registry_version": "1.2.0",
   "topics": [
-    {
-      "topic_id": "PHY-TOPIC-MECH-NEWTON2",
-      "topic": "mechanics/newton-second-law",
-      "title": "牛頓第二定律",
-      "blueprint": "topics/mechanics/newton-second-law.json",
-      "status": "active"
-    },
-    {
-      "topic_id": "PHY-TOPIC-MECH-INCLINE",
-      "topic": "mechanics/inclined-plane",
-      "title": "斜面受力",
-      "blueprint": "topics/mechanics/inclined-plane.json",
-      "status": "active"
-    },
-    {
-      "topic_id": "PHY-TOPIC-MECH-PROJECTILE",
-      "topic": "mechanics/projectile-motion",
-      "title": "拋體運動",
-      "blueprint": "topics/mechanics/projectile-motion.json",
-      "status": "active"
-    }
+    {"topic_id":"PHY-TOPIC-MECH-NEWTON2","topic":"mechanics/newton-second-law","title":"牛頓第二定律","blueprint":"topics/mechanics/newton-second-law.json","status":"active"},
+    {"topic_id":"PHY-TOPIC-MECH-INCLINE","topic":"mechanics/inclined-plane","title":"斜面受力","blueprint":"topics/mechanics/inclined-plane.json","status":"active"},
+    {"topic_id":"PHY-TOPIC-MECH-PROJECTILE","topic":"mechanics/projectile-motion","title":"拋體運動","blueprint":"topics/mechanics/projectile-motion.json","status":"active"},
+    {"topic_id":"PHY-TOPIC-MECH-CIRCULAR","topic":"mechanics/uniform-circular-motion","title":"等速圓周運動","blueprint":"topics/mechanics/uniform-circular-motion.json","status":"active"}
   ]
 }
