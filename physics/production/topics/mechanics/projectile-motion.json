@@ -1,0 +1,18 @@
+{
+  "topic_id": "PHY-TOPIC-MECH-PROJECTILE",
+  "topic": "mechanics/projectile-motion",
+  "title": "拋體運動",
+  "domain": "mechanics",
+  "source_diagram": "../../../mechanics/assets/03_projectile-motion.svg",
+  "learning_objectives": [
+    {"id":"PHY-MECH-PROJ-LO1","statement":"能將初速度分解為水平與垂直分量。"},
+    {"id":"PHY-MECH-PROJ-LO2","statement":"能分別描述理想拋體的水平等速度與垂直等加速度運動。"},
+    {"id":"PHY-MECH-PROJ-LO3","statement":"能判斷最高點的速度分量與重力加速度方向。"}
+  ],
+  "misconception_tags": [
+    {"id":"MIS-PROJ-TOP-ACCEL-ZERO","description":"誤以為拋體到最高點時速度或加速度全部變成零。"},
+    {"id":"MIS-PROJ-HORIZONTAL-ACCEL","description":"忽略空氣阻力時仍誤認為水平速度會因重力改變。"},
+    {"id":"MIS-PROJ-COMPONENTS-DEPENDENT","description":"誤以為水平運動會直接改變垂直方向的重力加速度。"}
+  ],
+  "expected_families": ["teach","practice","assess","diagnose","reference"]
+}
