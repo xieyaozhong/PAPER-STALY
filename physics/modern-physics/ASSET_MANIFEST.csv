@@ -1,0 +1,12 @@
+id,title,concept,format,license_status,status,path,notes
+MP-001,光電效應,photon energy and work function,SVG,GREEN,DONE,physics/modern-physics/01_photoelectric-effect.svg,DIAGRAM
+MP-002,德布羅意物質波,matter wavelength,SVG,GREEN,DONE,physics/modern-physics/02_de-broglie-wave.svg,DIAGRAM
+MP-003,原子能階與躍遷,quantized energy levels,SVG,GREEN,DONE,physics/modern-physics/03_atomic-energy-levels.svg,DIAGRAM
+MP-004,發射光譜,line spectrum,SVG,GREEN,DONE,physics/modern-physics/04_emission-spectrum.svg,DIAGRAM
+MP-005,放射性衰變,exponential decay,SVG,GREEN,DONE,physics/modern-physics/05_radioactive-decay.svg,MODEL
+MP-006,半衰期,half-life sequence,SVG,GREEN,DONE,physics/modern-physics/06_half-life.svg,DIAGRAM
+MP-007,質能互換,E=mc^2,SVG,GREEN,DONE,physics/modern-physics/07_mass-energy.svg,DIAGRAM
+MP-008,核分裂,fission chain concept,SVG,GREEN,DONE,physics/modern-physics/08_nuclear-fission.svg,DIAGRAM
+MP-009,核融合,fusion energy release,SVG,GREEN,DONE,physics/modern-physics/09_nuclear-fusion.svg,DIAGRAM
+MP-010,粒子碰撞與徑跡,collision event display,SVG,GREEN,DONE,physics/modern-physics/10_particle-collision.svg,DIAGRAM; 可用 CERN data 重繪
+MP-011,重力波 strain 波形,chirp waveform,SVG,GREEN,DONE,physics/modern-physics/11_gravitational-wave.svg,MODEL; 可用 GWOSC data 替換
