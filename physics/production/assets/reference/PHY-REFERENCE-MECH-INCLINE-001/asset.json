@@ -1,0 +1,44 @@
+{
+  "asset_id": "PHY-REFERENCE-MECH-INCLINE-001",
+  "family": "reference",
+  "title": "斜面受力｜公式與判讀卡",
+  "audience": "both",
+  "subject": "physics",
+  "topic": "mechanics/inclined-plane",
+  "learning_objectives": [
+    {"id":"PHY-MECH-INCLINE-LO1","statement":"能正確使用 mg sinθ 與 mg cosθ。"},
+    {"id":"PHY-MECH-INCLINE-LO2","statement":"能判斷正向力與斜角的關係。"},
+    {"id":"PHY-MECH-INCLINE-LO3","statement":"能快速判讀無摩擦斜面加速度。"}
+  ],
+  "misconception_tags": [
+    "MIS-INCLINE-MG-SIN-COS-SWAPPED",
+    "MIS-INCLINE-N-EQUAL-MG",
+    "MIS-INCLINE-HEAVIER-ACCELERATES-FASTER"
+  ],
+  "render": {
+    "seed": 210341,
+    "viewport": {"width":1440,"height":1080},
+    "theme": "paper-staly-physics-dark-v1",
+    "fallback_fonts": ["Noto Sans TC","PingFang TC","Microsoft JhengHei","Arial","sans-serif"]
+  },
+  "content": {
+    "summary": "把斜面模型整理成快速查閱卡：先選斜面座標，再分解重力，最後依各方向列牛頓第二定律。",
+    "formulae": ["mg∥ = mg sinθ · mg⊥ = mg cosθ · a = g sinθ"],
+    "diagram": "../../../../mechanics/assets/02_inclined-plane.svg",
+    "use_note": "適合課堂公式欄、解題前檢查、段考複習與教師投影。",
+    "references": [
+      "沿斜面方向：mg sinθ；垂直斜面方向：mg cosθ。",
+      "簡單無摩擦且無其他垂直斜面作用力時：N = mg cosθ。",
+      "無摩擦斜面沿面加速度：a = g sinθ，因此與質量 m 無關。",
+      "θ 增大時：mg sinθ 增大、mg cosθ 減小。"
+    ]
+  },
+  "qa": {
+    "checks": [
+      {"id":"QA-SCHEMA","description":"必要欄位完整","required":true},
+      {"id":"QA-FORMULA","description":"sin/cos 與座標方向一致","required":true},
+      {"id":"QA-CAVEAT","description":"N = mg cosθ 的適用條件明確","required":true},
+      {"id":"QA-DETERMINISTIC","description":"固定 seed 與 viewport","required":true}
+    ]
+  }
+}
