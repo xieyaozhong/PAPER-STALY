@@ -23,6 +23,26 @@
 14_ANIMATION/
 ```
 
+## 已可直接使用的章節素材包
+
+### Mechanics Starter Pack
+入口：[`mechanics/README.md`](mechanics/README.md)
+
+目前已完成 10 張統一風格原創 SVG：
+
+1. 牛頓第二定律
+2. 斜面受力
+3. 拋體運動
+4. 等速圓周運動
+5. 動量與碰撞
+6. 機械能轉換
+7. 胡克定律
+8. 力矩與槓桿
+9. 滑輪與機械利益
+10. x–t / v–t / a–t 運動圖像
+
+可直接查看縮圖 Gallery：[`mechanics/index.html`](mechanics/index.html)
+
 ## 素材層級
 
 ### A — Raw / Data
