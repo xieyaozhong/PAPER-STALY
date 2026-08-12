@@ -1,0 +1,43 @@
+{
+  "asset_id": "PHY-ASSESS-MECH-NEWTON2-001",
+  "family": "assess",
+  "title": "牛頓第二定律｜概念檢核",
+  "audience": "student",
+  "subject": "physics",
+  "topic": "mechanics/newton-second-law",
+  "learning_objectives": [
+    {"id":"PHY-MECH-N2-LO1","statement":"能辨識淨力、質量與加速度三者的關係。"},
+    {"id":"PHY-MECH-N2-LO2","statement":"能根據淨力方向判斷加速度方向。"},
+    {"id":"PHY-MECH-N2-LO3","statement":"能區分單一作用力與所有力的向量合成。"}
+  ],
+  "misconception_tags": [
+    "MIS-N2-FORCE-MEANS-VELOCITY",
+    "MIS-N2-USE-SINGLE-FORCE-NOT-NET",
+    "MIS-N2-MASS-CHANGES-DIRECTION"
+  ],
+  "render": {
+    "seed": 210221,
+    "viewport": {"width":1440,"height":1080},
+    "theme": "paper-staly-physics-dark-v1",
+    "fallback_fonts": ["Noto Sans TC","PingFang TC","Microsoft JhengHei","Arial","sans-serif"]
+  },
+  "content": {
+    "summary": "三題短檢核用來確認學生是否真的理解淨力、質量與加速度，而不是只記得公式字面。",
+    "formulae": ["F_net = ma"],
+    "diagram": "../../../../mechanics/assets/01_newton-second-law.svg",
+    "questions": [
+      "物體受到向右 8 N、向左 8 N 的力。此刻加速度為何？請說明理由。",
+      "兩個物體受到相同淨力，A 的質量是 B 的兩倍。比較兩者加速度大小。",
+      "物體正向右運動且速度變慢。淨力可能朝哪個方向？"
+    ],
+    "scoring": "每題 2 分：答案 1 分、理由或關係敘述 1 分；共 6 分。"
+  },
+  "qa": {
+    "checks": [
+      {"id":"QA-SCHEMA","description":"必要欄位完整","required":true},
+      {"id":"QA-COVERAGE","description":"三個 learning objectives 都被至少一題覆蓋","required":true},
+      {"id":"QA-SCORING","description":"評分規則可由 teacher-facing 系統讀取","required":true},
+      {"id":"QA-DETERMINISTIC","description":"固定 seed 與 viewport","required":true}
+    ]
+  }
+}
