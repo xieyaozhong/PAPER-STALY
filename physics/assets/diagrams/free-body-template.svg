@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">自由體圖模板</title>
+  <desc id="desc">方塊置於水平面，標示重力、支持力、外力與摩擦力，可作為物理講義自由體圖骨架。</desc>
+  <defs>
+    <marker id="cyanArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#66d9ff"/></marker>
+    <marker id="orangeArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#ff9d36"/></marker>
+  </defs>
+  <rect width="1200" height="675" fill="#08111c"/>
+  <text x="70" y="72" fill="#f7fbff" font-size="34" font-family="sans-serif" font-weight="700">自由體圖｜FREE-BODY DIAGRAM</text>
+  <text x="70" y="108" fill="#8ea6b8" font-size="17" font-family="monospace">MECHANICS · FORCE VECTOR TEMPLATE</text>
+  <line x1="120" y1="510" x2="1080" y2="510" stroke="#71808c" stroke-width="5"/>
+  <g transform="translate(600 390)">
+    <rect x="-105" y="-75" width="210" height="150" rx="16" fill="#162536" stroke="#d8e5ee" stroke-width="3"/>
+    <text x="0" y="8" text-anchor="middle" fill="#f7fbff" font-size="28" font-family="sans-serif" font-weight="700">m</text>
+    <line x1="0" y1="-78" x2="0" y2="-220" stroke="#66d9ff" stroke-width="7" marker-end="url(#cyanArrow)"/>
+    <text x="22" y="-190" fill="#66d9ff" font-size="23" font-family="sans-serif">N</text>
+    <line x1="0" y1="78" x2="0" y2="230" stroke="#ff9d36" stroke-width="7" marker-end="url(#orangeArrow)"/>
+    <text x="22" y="205" fill="#ff9d36" font-size="23" font-family="sans-serif">mg</text>
+    <line x1="108" y1="0" x2="280" y2="0" stroke="#66d9ff" stroke-width="7" marker-end="url(#cyanArrow)"/>
+    <text x="190" y="-18" fill="#66d9ff" font-size="23" font-family="sans-serif">F</text>
+    <line x1="-108" y1="0" x2="-260" y2="0" stroke="#ff9d36" stroke-width="7" marker-end="url(#orangeArrow)"/>
+    <text x="-205" y="-18" fill="#ff9d36" font-size="23" font-family="sans-serif">f</text>
+  </g>
+  <g font-family="sans-serif" font-size="19">
+    <text x="70" y="596" fill="#f7fbff">可編輯語意：</text>
+    <text x="200" y="596" fill="#66d9ff">藍色＝外加／支持／運動相關向量</text>
+    <text x="610" y="596" fill="#ff9d36">橘色＝重力／阻力／能量耗散相關向量</text>
+    <text x="70" y="632" fill="#8ea6b8">教學使用時請依實際情境刪除不存在的力；自由體圖只畫「作用在選定物體上的力」。</text>
+  </g>
+</svg>
