@@ -1,0 +1,43 @@
+{
+  "asset_id": "PHY-DIAGNOSE-MECH-INCLINE-001",
+  "family": "diagnose",
+  "title": "斜面受力｜常見迷思診斷",
+  "audience": "both",
+  "subject": "physics",
+  "topic": "mechanics/inclined-plane",
+  "learning_objectives": [
+    {"id":"PHY-MECH-INCLINE-LO1","statement":"能正確分解重力的沿斜面與垂直斜面分量。"},
+    {"id":"PHY-MECH-INCLINE-LO2","statement":"能理解正向力不必等於物體重量。"},
+    {"id":"PHY-MECH-INCLINE-LO3","statement":"能理解無摩擦斜面加速度與質量無關。"}
+  ],
+  "misconception_tags": [
+    "MIS-INCLINE-MG-SIN-COS-SWAPPED",
+    "MIS-INCLINE-N-EQUAL-MG",
+    "MIS-INCLINE-HEAVIER-ACCELERATES-FASTER"
+  ],
+  "render": {
+    "seed": 210331,
+    "viewport": {"width":1440,"height":1080},
+    "theme": "paper-staly-physics-dark-v1",
+    "fallback_fonts": ["Noto Sans TC","PingFang TC","Microsoft JhengHei","Arial","sans-serif"]
+  },
+  "content": {
+    "summary": "透過三個典型錯誤說法辨識學生是否混淆 sin／cos、正向力與重量，以及質量對斜面加速度的影響。",
+    "formulae": ["mg∥ = mg sinθ · mg⊥ = mg cosθ"],
+    "diagram": "../../../../mechanics/assets/02_inclined-plane.svg",
+    "diagnostic_intent": "辨識學生是否只是背公式，還是真的理解座標選擇、正向力來源與質量約去的原因。",
+    "cases": [
+      "學生甲說：沿斜面的重力分量一定是 mg cosθ，因為 cos 比較常出現在水平分量。指出問題。",
+      "學生乙說：物體有重量 mg，所以斜面給它的正向力一定也是 mg。這句話錯在哪裡？",
+      "學生丙說：5 kg 物體比 2 kg 物體重，所以一定在同一無摩擦斜面上滑得更快。請診斷迷思。"
+    ]
+  },
+  "qa": {
+    "checks": [
+      {"id":"QA-SCHEMA","description":"必要欄位完整","required":true},
+      {"id":"QA-MISCONCEPTION-MAP","description":"每個案例對應一個核心迷思標籤","required":true},
+      {"id":"QA-PHYSICS-CAVEAT","description":"N = mg cosθ 只在指定簡化模型下使用","required":true},
+      {"id":"QA-DETERMINISTIC","description":"固定 seed 與 viewport","required":true}
+    ]
+  }
+}
