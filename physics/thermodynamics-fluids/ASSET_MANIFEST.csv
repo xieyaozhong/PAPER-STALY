@@ -1,0 +1,9 @@
+id,topic,title,file,format,license_status,status,notes
+TF-001,thermodynamics,熱傳三方式,assets/01_heat-transfer.svg,SVG,GREEN,DONE,傳導對流輻射
+TF-002,thermodynamics,加熱曲線,assets/02_heating-curve.svg,SVG,GREEN,DONE,升溫與相變平台
+TF-003,thermodynamics,熱力學第一定律,assets/03_first-law.svg,SVG,GREEN,DONE,ΔU=Q−W
+TF-004,thermodynamics,P-V 圖,assets/04_pv-diagram.svg,SVG,GREEN,DONE,圖下面積代表氣體作功
+TF-005,fluids,液體靜壓,assets/05_hydrostatic-pressure.svg,SVG,GREEN,DONE,P=P0+ρgh
+TF-006,fluids,帕斯卡液壓,assets/06_pascal-hydraulics.svg,SVG,GREEN,DONE,F1/A1=F2/A2
+TF-007,fluids,浮力,assets/07_buoyancy.svg,SVG,GREEN,DONE,阿基米德原理
+TF-008,fluids,伯努力與文丘里,assets/08_bernoulli-venturi.svg,SVG,GREEN,DONE,連續方程與壓速關係
