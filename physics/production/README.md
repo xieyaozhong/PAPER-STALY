@@ -2,16 +2,44 @@
 
 這裡不是一本物理課本，而是 **可重複生產教材資產的系統**。
 
+## 現況
+
+目前已有：
+
+- **2 個正式 topic**
+- **5 個 asset family**
+- **10 個 registered assets**
+- 2 份 topic blueprint
+- asset schema + topic schema
+- batch validation
+- topic coverage validation
+- grouped registry index
+- zero-dependency headless render tool
+
+正式 topic：
+
+1. `mechanics/newton-second-law`
+2. `mechanics/inclined-plane`
+
+兩個 topic 都已完整覆蓋：
+
+```text
+teach + practice + assess + diagnose + reference
+```
+
 ## 固定架構
 
 ```text
 production/
 ├─ schema/
-│  └─ asset.schema.json
+│  ├─ asset.schema.json
+│  └─ topic.schema.json
 ├─ core/
 │  ├─ runtime.js
 │  ├─ theme.css
 │  └─ README.md
+├─ topics/
+│  └─ mechanics/
 ├─ assets/
 │  ├─ teach/
 │  ├─ practice/
@@ -19,9 +47,11 @@ production/
 │  ├─ diagnose/
 │  └─ reference/
 ├─ registry/
-│  └─ assets.json
+│  ├─ assets.json
+│  └─ topics.json
 ├─ tools/
 │  ├─ validate-all.mjs
+│  ├─ check-topic-coverage.mjs
 │  ├─ build-index.mjs
 │  └─ render-all.mjs
 ├─ RUNBOOK.md
@@ -30,14 +60,34 @@ production/
 
 ## 生產模型
 
-- 共用：`core/runtime.js` + `core/theme.css`
-- 個別資產：薄設定 `asset.json` + 獨立 `index.html` + `manifest.json`
-- 每個 asset 資料夾可單獨執行，不依賴唯一主程式
-- 每個 asset 都有固定 `asset_id`
-- render seed、viewport、fallback fonts 固定
-- schema validation 在 render 前執行
-- QA 與 learning objective / misconception tag 一起保存
-- registry 是 batch validation / index / render 的唯一資產清單來源
+### Topic layer
+
+每個概念先有 topic blueprint，集中定義：
+
+- topic ID / slug
+- domain
+- source diagram
+- learning objectives
+- misconception tags
+- expected asset families
+
+### Asset layer
+
+每個正式 asset 採：
+
+```text
+<ASSET_ID>/
+├─ index.html
+├─ asset.json
+└─ manifest.json
+```
+
+- 共用 `core/runtime.js` + `core/theme.css`
+- 每個 asset 可獨立執行
+- stable `asset_id`
+- 固定 render seed / viewport / fallback fonts
+- family-specific content contract
+- QA / objective / misconception traceability
 
 ## 五個 Asset Family
 
@@ -54,9 +104,13 @@ production/
 正式來源是 HTML / SVG / JSON / CSS，不以 PDF 當母檔。
 PNG / PDF 均視為可重建輸出。
 
-## 第一組正式主題：牛頓第二定律
+## Formal Topics
 
-同一個 learning objective set 已建立五個不同用途的正式資產：
+### 牛頓第二定律
+
+Blueprint：[`topics/mechanics/newton-second-law.json`](topics/mechanics/newton-second-law.json)
+
+Assets：
 
 - `PHY-TEACH-MECH-NEWTON2-001`
 - `PHY-PRACTICE-MECH-NEWTON2-001`
@@ -64,18 +118,34 @@ PNG / PDF 均視為可重建輸出。
 - `PHY-DIAGNOSE-MECH-NEWTON2-001`
 - `PHY-REFERENCE-MECH-NEWTON2-001`
 
-它們共用 Mechanics SVG 與 shared core，但各自保留自己的內容設定、seed、audience、traceability 與 QA。
+### 斜面受力
+
+Blueprint：[`topics/mechanics/inclined-plane.json`](topics/mechanics/inclined-plane.json)
+
+Assets：
+
+- `PHY-TEACH-MECH-INCLINE-001`
+- `PHY-PRACTICE-MECH-INCLINE-001`
+- `PHY-ASSESS-MECH-INCLINE-001`
+- `PHY-DIAGNOSE-MECH-INCLINE-001`
+- `PHY-REFERENCE-MECH-INCLINE-001`
 
 總入口：[`index.html`](index.html)
 
-Registry：[`registry/assets.json`](registry/assets.json)
+Asset Registry：[`registry/assets.json`](registry/assets.json)
+
+Topic Registry：[`registry/topics.json`](registry/topics.json)
 
 ## Batch workflow
 
 ```text
-source
+topic blueprint
   ↓
-validate
+asset config / source
+  ↓
+validate-all
+  ↓
+check-topic-coverage
   ↓
 build index
   ↓
@@ -92,6 +162,7 @@ publish / compose
 
 ```bash
 node tools/validate-all.mjs
+node tools/check-topic-coverage.mjs
 ```
 
 ### Index generation
