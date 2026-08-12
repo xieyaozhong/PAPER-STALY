@@ -1,0 +1,18 @@
+{
+  "topic_id": "PHY-TOPIC-MECH-NEWTON2",
+  "topic": "mechanics/newton-second-law",
+  "title": "牛頓第二定律",
+  "domain": "mechanics",
+  "source_diagram": "../../../mechanics/assets/01_newton-second-law.svg",
+  "learning_objectives": [
+    {"id":"PHY-MECH-N2-LO1","statement":"能辨識淨力、質量與加速度三者的關係。"},
+    {"id":"PHY-MECH-N2-LO2","statement":"能根據淨力方向判斷加速度方向。"},
+    {"id":"PHY-MECH-N2-LO3","statement":"能區分單一作用力與所有力的向量合成。"}
+  ],
+  "misconception_tags": [
+    {"id":"MIS-N2-FORCE-MEANS-VELOCITY","description":"把力或加速度方向誤認為速度方向。"},
+    {"id":"MIS-N2-USE-SINGLE-FORCE-NOT-NET","description":"把某一個單獨作用力直接代入 F = ma，而沒有先求淨力。"},
+    {"id":"MIS-N2-MASS-CHANGES-DIRECTION","description":"誤以為質量大小會直接決定加速度方向。"}
+  ],
+  "expected_families": ["teach","practice","assess","diagnose","reference"]
+}
