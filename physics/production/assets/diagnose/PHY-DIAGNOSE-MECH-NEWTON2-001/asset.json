@@ -1,0 +1,43 @@
+{
+  "asset_id": "PHY-DIAGNOSE-MECH-NEWTON2-001",
+  "family": "diagnose",
+  "title": "牛頓第二定律｜常見迷思診斷",
+  "audience": "both",
+  "subject": "physics",
+  "topic": "mechanics/newton-second-law",
+  "learning_objectives": [
+    {"id":"PHY-MECH-N2-LO1","statement":"能辨識淨力、質量與加速度三者的關係。"},
+    {"id":"PHY-MECH-N2-LO2","statement":"能根據淨力方向判斷加速度方向。"},
+    {"id":"PHY-MECH-N2-LO3","statement":"能區分單一作用力與所有力的向量合成。"}
+  ],
+  "misconception_tags": [
+    "MIS-N2-FORCE-MEANS-VELOCITY",
+    "MIS-N2-USE-SINGLE-FORCE-NOT-NET",
+    "MIS-N2-MASS-CHANGES-DIRECTION"
+  ],
+  "render": {
+    "seed": 210231,
+    "viewport": {"width":1440,"height":1080},
+    "theme": "paper-staly-physics-dark-v1",
+    "fallback_fonts": ["Noto Sans TC","PingFang TC","Microsoft JhengHei","Arial","sans-serif"]
+  },
+  "content": {
+    "summary": "用學生常見敘述辨識錯誤概念，重點不是答對公式，而是找出推理中的錯誤連結。",
+    "formulae": ["F_net = ma"],
+    "diagram": "../../../../mechanics/assets/01_newton-second-law.svg",
+    "diagnostic_intent": "辨識學生是否把速度方向、單一作用力或質量大小錯當成加速度方向的直接決定因素。",
+    "cases": [
+      "學生甲說：物體正在向右運動，所以合力一定向右。判斷這句話反映哪一種迷思。",
+      "學生乙說：F = ma 裡面的 F 就是題目中數值最大的那一個力。指出錯誤在哪裡。",
+      "學生丙說：同樣受到 10 N 的淨力，質量越大的物體加速度越大。判斷並修正。"
+    ]
+  },
+  "qa": {
+    "checks": [
+      {"id":"QA-SCHEMA","description":"必要欄位完整","required":true},
+      {"id":"QA-MISCONCEPTION-MAP","description":"每個診斷情境對應明確 misconception tag","required":true},
+      {"id":"QA-TEACHER-USE","description":"教師可由標籤判斷後續補救方向","required":true},
+      {"id":"QA-DETERMINISTIC","description":"固定 seed 與 viewport","required":true}
+    ]
+  }
+}
