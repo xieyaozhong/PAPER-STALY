@@ -2,6 +2,15 @@
 
 這個資料夾用來管理物理教材可使用的開放素材、模擬工具、科學資料、向量圖與授權資訊。
 
+## 快速入口
+
+- **總素材瀏覽器：[`index.html`](index.html)**
+- **講義視覺規格：[`HANDOUT_DESIGN_SYSTEM.md`](HANDOUT_DESIGN_SYSTEM.md)**
+- **章節建立模板：[`chapters/CHAPTER_TEMPLATE.md`](chapters/CHAPTER_TEMPLATE.md)**
+- 授權政策：[`LICENSE_POLICY.md`](LICENSE_POLICY.md)
+- 完整來源：[`SOURCES.md`](SOURCES.md)
+- 全域素材 manifest：[`ASSET_MANIFEST.csv`](ASSET_MANIFEST.csv)
+
 ## 目標
 
 建立一套可重複使用於講義、簡報、互動網站與題目圖解的物理素材母庫，涵蓋：
@@ -36,6 +45,8 @@
 入口：[`waves-optics/README.md`](waves-optics/README.md)
 
 已完成 8 張統一風格原創 SVG：波的基本量、疊加、駐波、都卜勒效應、反射、折射、凸透鏡成像、雙狹縫干涉。
+
+可直接查看縮圖 Gallery：[`waves-optics/index.html`](waves-optics/index.html)
 
 素材清單：[`waves-optics/ASSET_MANIFEST.csv`](waves-optics/ASSET_MANIFEST.csv)
 
@@ -111,7 +122,7 @@
 
 詳見 [`LICENSE_POLICY.md`](LICENSE_POLICY.md)。
 
-## 第一批核心來源
+## 核心來源
 
 ### 教材與圖解
 - OpenStax Physics
@@ -136,15 +147,7 @@
 - Tabler Icons
 - Material Symbols
 
-完整來源與授權狀態：[`SOURCES.md`](SOURCES.md)
-
-機器可讀清單：[`ASSET_MANIFEST.csv`](ASSET_MANIFEST.csv)
-
-視覺規格：[`VISUAL_SYSTEM.md`](VISUAL_SYSTEM.md)
-
-授權紀錄模板：[`ATTRIBUTION_TEMPLATE.csv`](ATTRIBUTION_TEMPLATE.csv)
-
-## 已放入專案的自製基礎 SVG
+## 共用素材
 
 - [`assets/diagrams/free-body-template.svg`](assets/diagrams/free-body-template.svg)
 - [`assets/diagrams/wave-basics.svg`](assets/diagrams/wave-basics.svg)
@@ -154,10 +157,10 @@
 
 目前章節級 Starter Pack 共 **55 張原創 SVG**，另有 5 張共用基礎 SVG。
 
-## 已加入的 Lucide 物理 icon starter pack
+## Lucide Physics Icon Starter Pack
 
 位置：[`assets/icons/lucide/`](assets/icons/lucide/)
 
 目前包含 `atom.svg`、`magnet.svg`、`battery.svg`、`gauge.svg`、`waves-horizontal.svg`、`thermometer.svg`、`orbit.svg`、`ruler.svg`、`scale.svg`、`telescope.svg`。
 
-Lucide 為 ISC 授權；授權 notice 已一併保存在 [`assets/icons/lucide/LICENSE.txt`](assets/icons/lucide/LICENSE.txt)。
+Lucide 為 ISC 授權；授權 notice 已保存在 [`assets/icons/lucide/LICENSE.txt`](assets/icons/lucide/LICENSE.txt)。
