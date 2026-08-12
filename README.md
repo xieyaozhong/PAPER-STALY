@@ -40,20 +40,22 @@
 - 電場／磁場
 - 熱學與流體
 - 近代／量子物理
+- 測量與實驗資料分析
 - 真實開放科學資料
 - 2D／3D 互動模擬
 - 科學動畫工具
 - 教材 UI / SVG 圖示
 
-目前已完成五套章節級 Starter Pack：
+目前已完成六套章節級 Starter Pack：
 
 - Mechanics — 10 張 SVG
 - Waves & Optics — 8 張 SVG
 - Electricity & Magnetism — 10 張 SVG
 - Thermodynamics & Fluids — 8 張 SVG
 - Modern Physics — 11 張 SVG
+- Measurement & Experimental Physics — 8 張 SVG
 
-共 **47 張章節級原創 SVG**，另有 5 張共用基礎 SVG 與 10 個 Lucide 物理 icon，可直接作為後續教材元件。
+共 **55 張章節級原創 SVG**，另有 5 張共用基礎 SVG 與 10 個 Lucide 物理 icon，可直接作為後續教材元件。
 
 ## 原則
 
