@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Physics Asset Browser｜PAPER-STALY</title>
+<style>
+:root{--bg:#070a0f;--surface:#101720;--surface2:#151e29;--line:#273442;--text:#f5f7fb;--muted:#8e9aaa;--cyan:#56d7e8;--orange:#ff9f1c;--ok:#7ce38b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 78% 4%,#142c3d 0,#070a0f 33rem);color:var(--text);font-family:system-ui,-apple-system,"Noto Sans TC","PingFang TC",sans-serif}.wrap{max-width:1320px;margin:auto;padding:56px 24px 90px}.eyebrow{font:700 13px ui-monospace,monospace;letter-spacing:.14em;color:var(--cyan)}h1{font-size:clamp(42px,7vw,82px);line-height:.96;margin:14px 0 20px;letter-spacing:-.035em}.lead{max-width:870px;color:var(--muted);font-size:18px;line-height:1.75}.strip{height:3px;width:250px;background:linear-gradient(90deg,var(--orange),var(--cyan));margin:30px 0}.stats{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0 48px}.stat{padding:12px 16px;border:1px solid var(--line);border-radius:999px;background:rgba(16,23,32,.76);color:var(--muted)}.stat b{color:var(--text)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:22px}.pack{background:linear-gradient(145deg,rgba(18,26,36,.96),rgba(10,14,20,.96));border:1px solid var(--line);border-radius:20px;overflow:hidden;transition:.2s transform,.2s border-color}.pack:hover{transform:translateY(-3px);border-color:#3b5165}.hero{height:210px;background:#0b0e13;display:grid;grid-template-columns:1fr 1fr;gap:1px;border-bottom:1px solid var(--line)}.hero img{width:100%;height:100%;object-fit:contain;padding:8px;background:#0b0e13}.meta{padding:21px}.tag{font:700 12px ui-monospace,monospace;color:var(--orange);letter-spacing:.08em}.pack h2{font-size:25px;margin:7px 0 8px}.pack p{margin:0;color:var(--muted);line-height:1.6}.chips{display:flex;flex-wrap:wrap;gap:7px;margin:16px 0}.chip{font-size:12px;padding:6px 9px;border-radius:999px;border:1px solid var(--line);color:#b7c2ce}.actions{display:flex;gap:10px;margin-top:18px}.btn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;border-radius:10px;padding:10px 13px;font-weight:700;font-size:14px}.primary{background:var(--cyan);color:#051016}.secondary{border:1px solid var(--line);color:var(--text)}.status{display:inline-flex;align-items:center;gap:7px;color:var(--ok);font-size:13px;margin-top:13px}.dot{width:8px;height:8px;border-radius:50%;background:var(--ok);box-shadow:0 0 12px var(--ok)}.section{margin-top:58px}.section h3{font-size:28px;margin:0 0 15px}.workflow{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px}.step{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px}.step b{display:block;color:var(--cyan);margin-bottom:7px}.step span{color:var(--muted);line-height:1.55}.foot{margin-top:58px;border-top:1px solid var(--line);padding-top:22px;color:var(--muted);font-size:14px}.accent{color:var(--orange)}
+</style>
+</head>
+<body><main class="wrap">
+<div class="eyebrow">PAPER-STALY / PHYSICS OPEN ASSET SYSTEM</div>
+<h1>Physics Asset Browser</h1>
+<p class="lead">物理教材素材總入口。將目前六套章節級 Starter Pack、共用 SVG 與 UI icon 集中在一頁，之後製作講義、簡報或互動網站時可以直接從這裡挑圖。</p>
+<div class="strip"></div>
+<div class="stats">
+  <div class="stat"><b>6</b> Starter Packs</div>
+  <div class="stat"><b>55</b> Chapter SVGs</div>
+  <div class="stat"><b>5</b> Shared Diagrams</div>
+  <div class="stat"><b>10</b> Lucide Icons</div>
+  <div class="stat"><b>GREEN-first</b> License Policy</div>
+</div>
+
+<section class="grid">
+<article class="pack">
+  <div class="hero"><img src="mechanics/assets/01_newton-second-law.svg" alt="牛頓第二定律"><img src="mechanics/assets/03_projectile-motion.svg" alt="拋體運動"></div>
+  <div class="meta"><div class="tag">01 / MECHANICS · 10 SVG</div><h2>Mechanics</h2><p>力、運動、動量、能量、圓周運動、彈簧、力矩與簡單機械。</p><div class="chips"><span class="chip">F = ma</span><span class="chip">Projectile</span><span class="chip">Momentum</span><span class="chip">Energy</span></div><div class="actions"><a class="btn primary" href="mechanics/index.html">開啟 Gallery</a><a class="btn secondary" href="mechanics/README.md">README</a></div><div class="status"><span class="dot"></span>READY FOR HANDOUT</div></div>
+</article>
+
+<article class="pack">
+  <div class="hero"><img src="waves-optics/assets/01_wave-quantities.svg" alt="波的基本量"><img src="waves-optics/assets/06_refraction.svg" alt="折射"></div>
+  <div class="meta"><div class="tag">02 / WAVES & OPTICS · 8 SVG</div><h2>Waves & Optics</h2><p>波動基本量、疊加、駐波、都卜勒效應、反射、折射、透鏡與干涉。</p><div class="chips"><span class="chip">v = fλ</span><span class="chip">Standing Wave</span><span class="chip">Snell</span><span class="chip">Lens</span></div><div class="actions"><a class="btn primary" href="waves-optics/index.html">開啟 Gallery</a><a class="btn secondary" href="waves-optics/README.md">README</a></div><div class="status"><span class="dot"></span>READY FOR HANDOUT</div></div>
+</article>
+
+<article class="pack">
+  <div class="hero"><img src="electricity-magnetism/assets/01_coulomb-force.svg" alt="庫侖力"><img src="electricity-magnetism/assets/07_bar-magnet-field.svg" alt="條形磁鐵"></div>
+  <div class="meta"><div class="tag">03 / ELECTRICITY & MAGNETISM · 10 SVG</div><h2>Electricity & Magnetism</h2><p>靜電、電場、等位面、電路、電容、磁場、洛倫茲力與電磁感應。</p><div class="chips"><span class="chip">Coulomb</span><span class="chip">Kirchhoff</span><span class="chip">Capacitor</span><span class="chip">Faraday</span></div><div class="actions"><a class="btn primary" href="electricity-magnetism/index.html">開啟 Gallery</a><a class="btn secondary" href="electricity-magnetism/README.md">README</a></div><div class="status"><span class="dot"></span>READY FOR HANDOUT</div></div>
+</article>
+
+<article class="pack">
+  <div class="hero"><img src="thermodynamics-fluids/assets/01_heat-transfer.svg" alt="熱傳"><img src="thermodynamics-fluids/assets/07_buoyancy.svg" alt="浮力"></div>
+  <div class="meta"><div class="tag">04 / THERMODYNAMICS & FLUIDS · 8 SVG</div><h2>Thermodynamics & Fluids</h2><p>熱傳、相變、熱力學、P–V 圖、液體壓力、液壓、浮力與伯努力效應。</p><div class="chips"><span class="chip">ΔU = Q − W</span><span class="chip">P = ρgh</span><span class="chip">Buoyancy</span><span class="chip">Bernoulli</span></div><div class="actions"><a class="btn primary" href="thermodynamics-fluids/index.html">開啟 Gallery</a><a class="btn secondary" href="thermodynamics-fluids/README.md">README</a></div><div class="status"><span class="dot"></span>READY FOR HANDOUT</div></div>
+</article>
+
+<article class="pack">
+  <div class="hero"><img src="modern-physics/assets/01_photoelectric-effect.svg" alt="光電效應"><img src="modern-physics/assets/11_gravitational-wave-chirp.svg" alt="重力波"></div>
+  <div class="meta"><div class="tag">05 / MODERN PHYSICS · 11 SVG</div><h2>Modern Physics</h2><p>量子、原子、光譜、放射性、核能、粒子碰撞與重力波。</p><div class="chips"><span class="chip">E = hf</span><span class="chip">λ = h/p</span><span class="chip">E = mc²</span><span class="chip">GW Chirp</span></div><div class="actions"><a class="btn primary" href="modern-physics/index.html">開啟 Gallery</a><a class="btn secondary" href="modern-physics/README.md">README</a></div><div class="status"><span class="dot"></span>READY FOR HANDOUT</div></div>
+</article>
+
+<article class="pack">
+  <div class="hero"><img src="measurement/assets/03_accuracy-precision.svg" alt="準確度精密度"><img src="measurement/assets/06_linear-fit.svg" alt="線性擬合"></div>
+  <div class="meta"><div class="tag">06 / MEASUREMENT · 8 SVG</div><h2>Measurement & Experiment</h2><p>SI、量綱、準確度與精密度、不確定度、誤差棒、擬合與資料流程。</p><div class="chips"><span class="chip">SI</span><span class="chip">Uncertainty</span><span class="chip">Error Bar</span><span class="chip">Linear Fit</span></div><div class="actions"><a class="btn primary" href="measurement/index.html">開啟 Gallery</a><a class="btn secondary" href="measurement/README.md">README</a></div><div class="status"><span class="dot"></span>READY FOR HANDOUT</div></div>
+</article>
+</section>
+
+<section class="section">
+<h3>講義製作流程</h3>
+<div class="workflow">
+  <div class="step"><b>01 · PICK</b><span>先從 Starter Pack Gallery 選核心圖，再查 manifest 確認名稱與用途。</span></div>
+  <div class="step"><b>02 · ADAPT</b><span>依章節內容修改 SVG 標籤、數值與箭頭，但保留全書統一語意。</span></div>
+  <div class="step"><b>03 · ATTRIBUTE</b><span>第三方照片／資料必須填 attribution；專案自製 SVG 標記 SELF。</span></div>
+  <div class="step"><b>04 · EXPORT</b><span>印刷優先 SVG/PDF，Web 優先 SVG/WebP；避免把文字不必要地 rasterize。</span></div>
+</div>
+</section>
+
+<div class="foot">PAPER-STALY · Physics Open Asset System · <span class="accent">55 chapter SVGs</span> + shared diagrams + open-source reference library.</div>
+</main></body></html>
