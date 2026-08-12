@@ -1,5 +1,5 @@
 {
-  "registry_version": "1.0.0",
+  "registry_version": "1.1.0",
   "topics": [
     {
       "topic_id": "PHY-TOPIC-MECH-NEWTON2",
@@ -13,6 +13,13 @@
       "topic": "mechanics/inclined-plane",
       "title": "斜面受力",
       "blueprint": "topics/mechanics/inclined-plane.json",
+      "status": "active"
+    },
+    {
+      "topic_id": "PHY-TOPIC-MECH-PROJECTILE",
+      "topic": "mechanics/projectile-motion",
+      "title": "拋體運動",
+      "blueprint": "topics/mechanics/projectile-motion.json",
       "status": "active"
     }
   ]
