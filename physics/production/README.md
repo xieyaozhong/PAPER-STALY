@@ -6,10 +6,10 @@
 
 目前已有：
 
-- **2 個正式 topic**
+- **3 個正式 topic**
 - **5 個 asset family**
-- **10 個 registered assets**
-- 2 份 topic blueprint
+- **15 個 registered assets**
+- 3 份 topic blueprint
 - asset schema + topic schema
 - batch validation
 - topic coverage validation
@@ -20,8 +20,9 @@
 
 1. `mechanics/newton-second-law`
 2. `mechanics/inclined-plane`
+3. `mechanics/projectile-motion`
 
-兩個 topic 都已完整覆蓋：
+三個 topic 都已完整覆蓋：
 
 ```text
 teach + practice + assess + diagnose + reference
@@ -129,6 +130,18 @@ Assets：
 - `PHY-ASSESS-MECH-INCLINE-001`
 - `PHY-DIAGNOSE-MECH-INCLINE-001`
 - `PHY-REFERENCE-MECH-INCLINE-001`
+
+### 拋體運動
+
+Blueprint：[`topics/mechanics/projectile-motion.json`](topics/mechanics/projectile-motion.json)
+
+Assets：
+
+- `PHY-TEACH-MECH-PROJECTILE-001`
+- `PHY-PRACTICE-MECH-PROJECTILE-001`
+- `PHY-ASSESS-MECH-PROJECTILE-001`
+- `PHY-DIAGNOSE-MECH-PROJECTILE-001`
+- `PHY-REFERENCE-MECH-PROJECTILE-001`
 
 總入口：[`index.html`](index.html)
 
