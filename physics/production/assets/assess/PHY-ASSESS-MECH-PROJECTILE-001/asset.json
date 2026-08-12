@@ -1,0 +1,43 @@
+{
+  "asset_id": "PHY-ASSESS-MECH-PROJECTILE-001",
+  "family": "assess",
+  "title": "拋體運動｜概念檢核",
+  "audience": "student",
+  "subject": "physics",
+  "topic": "mechanics/projectile-motion",
+  "learning_objectives": [
+    {"id":"PHY-MECH-PROJ-LO1","statement":"能分解初速度。"},
+    {"id":"PHY-MECH-PROJ-LO2","statement":"能分別描述水平與垂直運動。"},
+    {"id":"PHY-MECH-PROJ-LO3","statement":"能判斷最高點狀態。"}
+  ],
+  "misconception_tags": [
+    "MIS-PROJ-TOP-ACCEL-ZERO",
+    "MIS-PROJ-HORIZONTAL-ACCEL",
+    "MIS-PROJ-COMPONENTS-DEPENDENT"
+  ],
+  "render": {
+    "seed": 210421,
+    "viewport": {"width":1440,"height":1080},
+    "theme": "paper-staly-physics-dark-v1",
+    "fallback_fonts": ["Noto Sans TC","PingFang TC","Microsoft JhengHei","Arial","sans-serif"]
+  },
+  "content": {
+    "summary": "三題檢核拋體分量、水平速度與最高點概念。",
+    "formulae": ["aₓ = 0 · aᵧ = −g"],
+    "diagram": "../../../../mechanics/assets/03_projectile-motion.svg",
+    "questions": [
+      "忽略空氣阻力，拋體在空中時水平方向的加速度是多少？",
+      "到最高點時，垂直速度與重力加速度各是多少或朝何方向？",
+      "若兩球從同高度同時水平拋出，但水平初速度不同，在理想模型下誰先落地？請說明。"
+    ],
+    "scoring": "每題 2 分：判斷 1 分、理由 1 分，共 6 分。"
+  },
+  "qa": {
+    "checks": [
+      {"id":"QA-SCHEMA","description":"必要欄位完整","required":true},
+      {"id":"QA-COVERAGE","description":"三個 learning objectives 均被覆蓋","required":true},
+      {"id":"QA-SCORING","description":"具有 scoring metadata","required":true},
+      {"id":"QA-DETERMINISTIC","description":"固定 seed 與 viewport","required":true}
+    ]
+  }
+}
