@@ -1,0 +1,35 @@
+id,category,title,role,source,source_url,target_format,license_status,priority,status,target_path,notes
+PHY-001,mechanics,自由體圖模板,教材核心圖,SELF,,SVG,GREEN,S,DONE,physics/assets/diagrams/free-body-template.svg,自製向量骨架
+PHY-002,waves,波動基本量示意,教材核心圖,SELF,,SVG,GREEN,S,DONE,physics/assets/diagrams/wave-basics.svg,波長振幅平衡位置
+PHY-003,optics,反射與折射光路骨架,教材核心圖,SELF,,SVG,GREEN,S,DONE,physics/assets/diagrams/ray-optics-basic.svg,可延伸 Snell law
+PHY-004,electricity,基礎串聯電路骨架,教材核心圖,SELF,,SVG,GREEN,S,DONE,physics/assets/diagrams/simple-circuit.svg,電池電阻開關量測點
+PHY-005,fields,場線示意骨架,教材核心圖,SELF,,SVG,GREEN,S,DONE,physics/assets/diagrams/field-lines.svg,正負電荷／場向量可延伸
+PHY-006,curriculum,基礎物理圖解與章節參考,教材與插圖來源,OpenStax Physics,https://openstax.org/books/physics/,SVG/PNG,YELLOW,S,TO_SOURCE,physics/reference/openstax-physics,正文 CC BY4；art 逐圖確認
+PHY-007,modern_physics,CERN 粒子物理資料,真實資料,CERN Open Data,https://opendata.cern.ch/,CSV/ROOT/JSON,GREEN,S,TO_SOURCE,physics/data/cern,metadata datasets CC0
+PHY-008,waves,GWOSC 重力波資料,真實波形資料,GWOSC,https://gwosc.org/,HDF5/CSV,GREEN,S,TO_SOURCE,physics/data/gwosc,CC BY4 並保留 acknowledgement
+PHY-009,simulation,OSP 模擬與 source,互動模擬,Open Source Physics,https://www.compadre.org/osp/,Java/JS,GREEN,S,TO_SOURCE,physics/interactive/osp,code GPLv2+；curriculum 另查
+PHY-010,simulation,Singapore OSP models,中學互動模型,Singapore Open Source Physics,https://www.compadre.org/osp/items/detail.cfm?ID=15208,JS/HTML,GREEN,A,TO_SOURCE,physics/interactive/ospsg,ComPADRE record Public Domain；單模型再核對
+PHY-011,animation,Manim,科學動畫生成器,Manim Community,https://github.com/ManimCommunity/manim,Python,GREEN,S,TO_SOURCE,physics/tools/manim,MIT
+PHY-012,mechanics,Matter.js,2D 剛體互動引擎,Matter.js,https://github.com/liabru/matter-js,JS,GREEN,S,TO_SOURCE,physics/tools/matter-js,MIT
+PHY-013,visualization,Three.js,3D 物理視覺化,Three.js,https://github.com/mrdoob/three.js,JS,GREEN,A,TO_SOURCE,physics/tools/three-js,core MIT；examples assets 逐項確認
+PHY-014,visualization,VPython,Jupyter 3D 物理視覺化,VPython,https://github.com/vpython/vpython-jupyter,Python,GREEN,S,TO_SOURCE,physics/tools/vpython,MIT
+PHY-015,quantum,QuTiP,量子系統模擬,QuTiP,https://github.com/qutip/qutip,Python,GREEN,A,TO_SOURCE,physics/tools/qutip,BSD-3-Clause
+PHY-016,experiment,Tracker Video Analysis,運動影片分析,Open Source Physics Tracker,https://github.com/OpenSourcePhysics/tracker,Java/JS,GREEN,S,TO_SOURCE,physics/tools/tracker,依 repo GPL/OSP 授權
+PHY-017,electricity,CircuitJS1,電路互動模擬,CircuitJS1,https://github.com/sharpie7/circuitjs1,JS,GREEN,A,TO_SOURCE,physics/tools/circuitjs1,GPL-2+
+PHY-018,creative_code,p5.js,互動圖解與粒子動畫,p5.js,https://github.com/processing/p5.js,JS,GREEN,A,TO_SOURCE,physics/tools/p5js,LGPL-2.1
+PHY-019,measurement,NIST Physics,SI／量測／量子實景,NIST,https://www.nist.gov/physics,PNG/Data,YELLOW,A,TO_SOURCE,physics/reference/nist,個別圖片 credit 必查
+PHY-020,icons,Lucide physics subset,教材 UI 圖示,Lucide,https://github.com/lucide-icons/lucide,SVG,GREEN,A,TO_SOURCE,physics/assets/icons/lucide,ISC
+PHY-021,icons,Tabler physics subset,教材 UI 圖示,Tabler Icons,https://github.com/tabler/tabler-icons,SVG,GREEN,A,TO_SOURCE,physics/assets/icons/tabler,MIT
+PHY-022,icons,Material Symbols subset,教材 UI 補充圖示,Material Symbols,https://fonts.google.com/icons,SVG,GREEN,B,TO_SOURCE,physics/assets/icons/material,Apache-2.0
+PHY-023,modern_physics,CMS Jupyter teaching data,粒子資料分析教材,CERN Open Data,https://opendata.cern.ch/record/cms-5101,IPYNB/CSV,GREEN,A,TO_SOURCE,physics/data/cern-cms-jupyter,Portal data CC0；repo license 再核對
+PHY-024,reference,Wikimedia physics diagrams,歷史與補充圖,Wikimedia Commons,https://commons.wikimedia.org/,SVG/PNG,YELLOW,B,TO_SOURCE,physics/reference/wikimedia,逐檔 license
+PHY-025,reference,University Physics Vol1-3,非商業架構參考,OpenStax,https://openstax.org/details/books/university-physics-volume-1,HTML/PDF,RED,B,REFERENCE_ONLY,physics/reference-only/openstax-university,CC BY-NC-SA 4.0
+PHY-026,reference,College Physics 2e,非商業架構參考,OpenStax,https://openstax.org/details/books/college-physics-2e,HTML/PDF,RED,B,REFERENCE_ONLY,physics/reference-only/openstax-college,CC BY-NC-SA 4.0
+PHY-027,simulation,PhET Interactive Simulations,高品質互動模擬,PhET,https://phet.colorado.edu/en/licensing,HTML/JS,YELLOW,A,REVIEW_REQUIRED,physics/reference-only/phet,授權依檔案類型與當前政策；商用不可預設
+PHY-028,simulation,Falstad physics applets,互動設計參考,Falstad,https://www.falstad.com/mathphysics.html,HTML/JS,RED,B,REFERENCE_ONLY,physics/reference-only/falstad,商用需另取得許可
+PHY-029,mechanics,碰撞情境模板,教材圖解,SELF,,SVG,GREEN,A,PLANNED,physics/assets/diagrams/collision-template.svg,之後配合動量／能量
+PHY-030,thermodynamics,熱傳三方式模板,教材圖解,SELF,,SVG,GREEN,A,PLANNED,physics/assets/diagrams/heat-transfer.svg,傳導對流輻射
+PHY-031,fluids,壓力與浮力模板,教材圖解,SELF,,SVG,GREEN,A,PLANNED,physics/assets/diagrams/fluids-pressure-buoyancy.svg,液柱壓力與浮力
+PHY-032,magnetism,磁場線模板,教材圖解,SELF,,SVG,GREEN,A,PLANNED,physics/assets/diagrams/magnetic-field.svg,條形磁鐵／電流磁場
+PHY-033,modern_physics,光電效應模板,教材圖解,SELF,,SVG,GREEN,A,PLANNED,physics/assets/diagrams/photoelectric-effect.svg,光子能量與逸出電子
+PHY-034,visual_system,物理配色與箭頭語意,共用設計系統,SELF,,CSS/MD,GREEN,S,PLANNED,physics/VISUAL_SYSTEM.md,力／速度／能量／電場／磁場語意
