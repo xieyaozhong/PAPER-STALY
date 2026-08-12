@@ -1,0 +1,26 @@
+{
+  "registry_version": "1.0.0",
+  "assets": [
+    {
+      "asset_id": "PHY-TEACH-MECH-NEWTON2-001",
+      "family": "teach",
+      "title": "牛頓第二定律｜淨力決定加速度",
+      "audience": "student",
+      "topic": "mechanics/newton-second-law",
+      "path": "assets/teach/PHY-TEACH-MECH-NEWTON2-001",
+      "entrypoint": "assets/teach/PHY-TEACH-MECH-NEWTON2-001/index.html",
+      "status": "active",
+      "seed": 210201,
+      "learning_objectives": [
+        "PHY-MECH-N2-LO1",
+        "PHY-MECH-N2-LO2",
+        "PHY-MECH-N2-LO3"
+      ],
+      "misconception_tags": [
+        "MIS-N2-FORCE-MEANS-VELOCITY",
+        "MIS-N2-USE-SINGLE-FORCE-NOT-NET",
+        "MIS-N2-MASS-CHANGES-DIRECTION"
+      ]
+    }
+  ]
+}
