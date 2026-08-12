@@ -1,0 +1,8 @@
+{
+  "asset_id":"PHY-ASSESS-MECH-CIRCULAR-001","family":"assess","title":"等速圓周運動｜概念檢核","audience":"student","subject":"physics","topic":"mechanics/uniform-circular-motion",
+  "learning_objectives":[{"id":"PHY-MECH-CIRC-LO1","statement":"能說明等速圓周運動雖然速率不變，但速度方向持續改變，因此仍有加速度。"},{"id":"PHY-MECH-CIRC-LO2","statement":"能使用 a_c = v²/r 與 F_c = mv²/r 判斷向心加速度與向心淨力。"},{"id":"PHY-MECH-CIRC-LO3","statement":"能辨識實際作用力中哪一個或哪一些力提供指向圓心的淨力，而不把向心力視為額外的新力。"}],
+  "misconception_tags":["MIS-CIRC-CONSTANT-SPEED-NO-ACCEL","MIS-CIRC-CENTRIPETAL-IS-EXTRA-FORCE","MIS-CIRC-VELOCITY-POINTS-INWARD"],
+  "render":{"seed":210521,"viewport":{"width":1440,"height":1080},"theme":"paper-staly-physics-dark-v1","fallback_fonts":["Noto Sans TC","PingFang TC","Microsoft JhengHei","Arial","sans-serif"]},
+  "content":{"summary":"用三題短檢核確認學生能否正確處理速度方向、向心量比例與實際力來源。","formulae":["a_c = v²/r","F_c = mv²/r"],"diagram":"../../../../mechanics/assets/04_uniform-circular-motion.svg","questions":["等速圓周運動中，速度方向與向心加速度方向各為何？","一物體速率不變，圓周半徑減半。向心加速度如何改變？","衛星繞地球作近似圓周運動時，提供向心淨力的是什麼實際作用力？"],"scoring":"每題 2 分：方向／關係 1 分，理由 1 分；共 6 分。"},
+  "qa":{"checks":[{"id":"QA-SCHEMA","description":"必要欄位完整","required":true},{"id":"QA-COVERAGE","description":"三個 objectives 皆有題目覆蓋","required":true},{"id":"QA-SCORING","description":"評分規則完整","required":true},{"id":"QA-DETERMINISTIC","description":"固定 seed 與 viewport","required":true}]}
+}
