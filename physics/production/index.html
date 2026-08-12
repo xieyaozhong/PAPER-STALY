@@ -4,19 +4,17 @@
 <title>Physics Production Registry｜PAPER-STALY</title>
 <style>
 :root{--bg:#080b10;--surface:#111720;--line:#2b3746;--text:#f5f7fb;--muted:#93a0b0;--orange:#ff9f1c;--cyan:#56d7e8}
-*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% 0,#122534 0,#080b10 34rem);color:var(--text);font-family:system-ui,-apple-system,"Noto Sans TC",sans-serif}.wrap{max-width:1200px;margin:auto;padding:56px 24px 80px}.eyebrow{font:700 12px ui-monospace,monospace;letter-spacing:.14em;color:var(--cyan)}h1{font-size:clamp(40px,7vw,76px);line-height:1;margin:12px 0}.lead{color:var(--muted);max-width:760px;line-height:1.7}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px;margin-top:36px}.card{background:rgba(17,23,32,.9);border:1px solid var(--line);border-radius:18px;padding:22px}.family{display:inline-block;color:var(--orange);font:700 11px ui-monospace,monospace;letter-spacing:.12em;text-transform:uppercase}.card h2{font-size:23px;margin:10px 0}.id{color:var(--cyan);font:600 12px ui-monospace,monospace}.card p,.meta{color:var(--muted);line-height:1.55}.meta{font:12px ui-monospace,monospace;margin:16px 0}.card a{color:var(--text);text-decoration:none;border-bottom:1px solid var(--cyan)}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% 0,#122534 0,#080b10 34rem);color:var(--text);font-family:system-ui,-apple-system,"Noto Sans TC",sans-serif}.wrap{max-width:1200px;margin:auto;padding:56px 24px 80px}.eyebrow{font:700 12px ui-monospace,monospace;letter-spacing:.14em;color:var(--cyan)}h1{font-size:clamp(40px,7vw,76px);line-height:1;margin:12px 0}.lead{color:var(--muted);max-width:820px;line-height:1.7}.stats{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0 10px}.stat{border:1px solid var(--line);border-radius:999px;padding:8px 12px;color:var(--muted);font:600 12px ui-monospace,monospace}.stat strong{color:var(--cyan)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px;margin-top:36px}.card{background:rgba(17,23,32,.9);border:1px solid var(--line);border-radius:18px;padding:22px}.family{display:inline-block;color:var(--orange);font:700 11px ui-monospace,monospace;letter-spacing:.12em;text-transform:uppercase}.card h2{font-size:23px;margin:10px 0}.id{color:var(--cyan);font:600 12px ui-monospace,monospace}.card p,.meta{color:var(--muted);line-height:1.55}.meta{font:12px ui-monospace,monospace;margin:16px 0}.card a{color:var(--text);text-decoration:none;border-bottom:1px solid var(--cyan)}
 </style></head><body><main class="wrap">
 <div class="eyebrow">PAPER-STALY / PHYSICS / PRODUCTION</div>
 <h1>Asset Registry</h1>
-<p class="lead">教材生產層的正式資產索引。每一個資產都有 stable ID、獨立入口、固定 seed、learning objective 與 misconception traceability。</p>
+<p class="lead">教材生產層的正式資產索引。每一個資產都有 stable ID、獨立入口、固定 seed、learning objective、misconception tags 與 QA contract。</p>
+<div class="stats"><span class="stat"><strong>5</strong> families</span><span class="stat"><strong>5</strong> registered assets</span><span class="stat"><strong>1</strong> shared concept</span></div>
 <section class="grid">
-<article class="card">
-  <div class="family">teach</div>
-  <h2>牛頓第二定律｜淨力決定加速度</h2>
-  <div class="id">PHY-TEACH-MECH-NEWTON2-001</div>
-  <p>mechanics/newton-second-law</p>
-  <div class="meta">audience · student<br>seed · 210201<br>status · active</div>
-  <a href="assets/teach/PHY-TEACH-MECH-NEWTON2-001/index.html">Open asset →</a>
-</article>
+<article class="card"><div class="family">teach</div><h2>牛頓第二定律｜淨力決定加速度</h2><div class="id">PHY-TEACH-MECH-NEWTON2-001</div><p>概念講解與 quick check。</p><div class="meta">audience · student<br>seed · 210201<br>status · active</div><a href="assets/teach/PHY-TEACH-MECH-NEWTON2-001/index.html">Open asset →</a></article>
+<article class="card"><div class="family">practice</div><h2>牛頓第二定律｜三題引導練習</h2><div class="id">PHY-PRACTICE-MECH-NEWTON2-001</div><p>逐步增加難度的學生練習。</p><div class="meta">audience · student<br>seed · 210211<br>status · active</div><a href="assets/practice/PHY-PRACTICE-MECH-NEWTON2-001/index.html">Open asset →</a></article>
+<article class="card"><div class="family">assess</div><h2>牛頓第二定律｜概念檢核</h2><div class="id">PHY-ASSESS-MECH-NEWTON2-001</div><p>三題短評量與 scoring metadata。</p><div class="meta">audience · student<br>seed · 210221<br>status · active</div><a href="assets/assess/PHY-ASSESS-MECH-NEWTON2-001/index.html">Open asset →</a></article>
+<article class="card"><div class="family">diagnose</div><h2>牛頓第二定律｜常見迷思診斷</h2><div class="id">PHY-DIAGNOSE-MECH-NEWTON2-001</div><p>用學生敘述辨識錯誤概念。</p><div class="meta">audience · both<br>seed · 210231<br>status · active</div><a href="assets/diagnose/PHY-DIAGNOSE-MECH-NEWTON2-001/index.html">Open asset →</a></article>
+<article class="card"><div class="family">reference</div><h2>牛頓第二定律｜公式與判讀卡</h2><div class="id">PHY-REFERENCE-MECH-NEWTON2-001</div><p>公式、單位與快速判讀規則。</p><div class="meta">audience · both<br>seed · 210241<br>status · active</div><a href="assets/reference/PHY-REFERENCE-MECH-NEWTON2-001/index.html">Open asset →</a></article>
 </section>
 </main></body></html>
