@@ -48,6 +48,15 @@
 
 素材清單：[`electricity-magnetism/ASSET_MANIFEST.csv`](electricity-magnetism/ASSET_MANIFEST.csv)
 
+### Thermodynamics & Fluids Starter Pack
+入口：[`thermodynamics-fluids/README.md`](thermodynamics-fluids/README.md)
+
+已完成 8 張統一風格原創 SVG：傳導／對流／輻射、加熱曲線、熱力學第一定律、P–V 圖、液體靜壓、帕斯卡液壓、浮力、伯努力／文丘里效應。
+
+可直接查看縮圖 Gallery：[`thermodynamics-fluids/index.html`](thermodynamics-fluids/index.html)
+
+素材清單：[`thermodynamics-fluids/ASSET_MANIFEST.csv`](thermodynamics-fluids/ASSET_MANIFEST.csv)
+
 ## 素材層級
 
 ### A — Raw / Data
