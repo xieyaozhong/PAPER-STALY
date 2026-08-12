@@ -1,0 +1,43 @@
+{
+  "asset_id": "PHY-ASSESS-MECH-INCLINE-001",
+  "family": "assess",
+  "title": "斜面受力｜概念檢核",
+  "audience": "student",
+  "subject": "physics",
+  "topic": "mechanics/inclined-plane",
+  "learning_objectives": [
+    {"id":"PHY-MECH-INCLINE-LO1","statement":"能把重力分解為沿斜面與垂直斜面的分量。"},
+    {"id":"PHY-MECH-INCLINE-LO2","statement":"能在簡單無摩擦情境判斷正向力。"},
+    {"id":"PHY-MECH-INCLINE-LO3","statement":"能說明無摩擦斜面加速度與質量無關。"}
+  ],
+  "misconception_tags": [
+    "MIS-INCLINE-MG-SIN-COS-SWAPPED",
+    "MIS-INCLINE-N-EQUAL-MG",
+    "MIS-INCLINE-HEAVIER-ACCELERATES-FASTER"
+  ],
+  "render": {
+    "seed": 210321,
+    "viewport": {"width":1440,"height":1080},
+    "theme": "paper-staly-physics-dark-v1",
+    "fallback_fonts": ["Noto Sans TC","PingFang TC","Microsoft JhengHei","Arial","sans-serif"]
+  },
+  "content": {
+    "summary": "用分量、正向力與質量無關性三題確認學生是否理解斜面模型。",
+    "formulae": ["mg∥ = mg sinθ · mg⊥ = mg cosθ · a = g sinθ"],
+    "diagram": "../../../../mechanics/assets/02_inclined-plane.svg",
+    "questions": [
+      "在角度 θ 的無摩擦斜面上，沿斜面方向的重力分量應寫成什麼？",
+      "若斜面角度由 20° 增加到 40°，正向力 N 會如何變化？假設其餘條件不變。",
+      "同角度無摩擦斜面上，2 kg 與 5 kg 物體誰的加速度較大？請說明。"
+    ],
+    "scoring": "每題 2 分：關係或答案 1 分、物理解釋 1 分，共 6 分。"
+  },
+  "qa": {
+    "checks": [
+      {"id":"QA-SCHEMA","description":"必要欄位完整","required":true},
+      {"id":"QA-COVERAGE","description":"三個 learning objectives 都被覆蓋","required":true},
+      {"id":"QA-SCORING","description":"具有可讀取的 scoring metadata","required":true},
+      {"id":"QA-DETERMINISTIC","description":"固定 seed 與 viewport","required":true}
+    ]
+  }
+}
