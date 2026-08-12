@@ -57,6 +57,15 @@
 
 素材清單：[`thermodynamics-fluids/ASSET_MANIFEST.csv`](thermodynamics-fluids/ASSET_MANIFEST.csv)
 
+### Modern Physics Starter Pack
+入口：[`modern-physics/README.md`](modern-physics/README.md)
+
+已完成 11 張統一風格原創 SVG：光電效應、德布羅意物質波、原子能階、發射光譜、放射性衰變、半衰期、質能互換、核分裂、核融合、粒子碰撞與重力波 chirp。
+
+可直接查看縮圖 Gallery：[`modern-physics/index.html`](modern-physics/index.html)
+
+素材清單：[`modern-physics/ASSET_MANIFEST.csv`](modern-physics/ASSET_MANIFEST.csv)
+
 ## 素材層級
 
 ### A — Raw / Data
@@ -133,6 +142,8 @@
 - [`assets/diagrams/ray-optics-basic.svg`](assets/diagrams/ray-optics-basic.svg)
 - [`assets/diagrams/simple-circuit.svg`](assets/diagrams/simple-circuit.svg)
 - [`assets/diagrams/field-lines.svg`](assets/diagrams/field-lines.svg)
+
+目前章節級 Starter Pack 共 **47 張原創 SVG**，另有 5 張共用基礎 SVG。
 
 ## 已加入的 Lucide 物理 icon starter pack
 
