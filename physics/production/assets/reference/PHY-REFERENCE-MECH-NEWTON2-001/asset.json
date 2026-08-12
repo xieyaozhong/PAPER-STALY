@@ -1,0 +1,42 @@
+{
+  "asset_id": "PHY-REFERENCE-MECH-NEWTON2-001",
+  "family": "reference",
+  "title": "牛頓第二定律｜公式與判讀卡",
+  "audience": "both",
+  "subject": "physics",
+  "topic": "mechanics/newton-second-law",
+  "learning_objectives": [
+    {"id":"PHY-MECH-N2-LO1","statement":"能辨識淨力、質量與加速度三者的關係。"},
+    {"id":"PHY-MECH-N2-LO2","statement":"能根據淨力方向判斷加速度方向。"}
+  ],
+  "misconception_tags": [
+    "MIS-N2-FORCE-MEANS-VELOCITY",
+    "MIS-N2-USE-SINGLE-FORCE-NOT-NET"
+  ],
+  "render": {
+    "seed": 210241,
+    "viewport": {"width":1440,"height":1080},
+    "theme": "paper-staly-physics-dark-v1",
+    "fallback_fonts": ["Noto Sans TC","PingFang TC","Microsoft JhengHei","Arial","sans-serif"]
+  },
+  "content": {
+    "summary": "把牛頓第二定律整理成可快速查閱的公式卡，強調 F 指的是淨力，而且加速度與淨力同方向。",
+    "formulae": ["F_net = ma"],
+    "diagram": "../../../../mechanics/assets/01_newton-second-law.svg",
+    "use_note": "適合課堂右側公式欄、複習頁、解題前檢查與教師投影。",
+    "references": [
+      "F_net：所有外力的向量和，不是任意一個單獨作用力。",
+      "a 與 F_net 同方向；速度方向不一定與它相同。",
+      "固定質量時 a ∝ F_net；固定淨力時 a ∝ 1/m。",
+      "SI 單位：1 N = 1 kg·m/s²。"
+    ]
+  },
+  "qa": {
+    "checks": [
+      {"id":"QA-SCHEMA","description":"必要欄位完整","required":true},
+      {"id":"QA-FORMULA","description":"公式符號與單位一致","required":true},
+      {"id":"QA-MISCONCEPTION","description":"明確提醒 F 是淨力且速度方向不等於加速度方向","required":true},
+      {"id":"QA-DETERMINISTIC","description":"固定 seed 與 viewport","required":true}
+    ]
+  }
+}
