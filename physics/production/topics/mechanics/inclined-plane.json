@@ -1,0 +1,18 @@
+{
+  "topic_id": "PHY-TOPIC-MECH-INCLINE",
+  "topic": "mechanics/inclined-plane",
+  "title": "斜面受力",
+  "domain": "mechanics",
+  "source_diagram": "../../../mechanics/assets/02_inclined-plane.svg",
+  "learning_objectives": [
+    {"id":"PHY-MECH-INCLINE-LO1","statement":"能把重力分解為沿斜面與垂直斜面的分量。"},
+    {"id":"PHY-MECH-INCLINE-LO2","statement":"能在指定簡化模型下判斷正向力大小。"},
+    {"id":"PHY-MECH-INCLINE-LO3","statement":"能說明無摩擦斜面上 a = g sinθ 與質量無關。"}
+  ],
+  "misconception_tags": [
+    {"id":"MIS-INCLINE-MG-SIN-COS-SWAPPED","description":"把沿斜面與垂直斜面的重力分量 sin/cos 對調。"},
+    {"id":"MIS-INCLINE-N-EQUAL-MG","description":"把正向力一律視為等於重量 mg。"},
+    {"id":"MIS-INCLINE-HEAVIER-ACCELERATES-FASTER","description":"誤以為較重物體在同一無摩擦斜面上一定有較大加速度。"}
+  ],
+  "expected_families": ["teach","practice","assess","diagnose","reference"]
+}
