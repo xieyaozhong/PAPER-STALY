@@ -45,14 +45,15 @@
 - 科學動畫工具
 - 教材 UI / SVG 圖示
 
-目前已完成四套章節級 Starter Pack：
+目前已完成五套章節級 Starter Pack：
 
 - Mechanics — 10 張 SVG
 - Waves & Optics — 8 張 SVG
 - Electricity & Magnetism — 10 張 SVG
 - Thermodynamics & Fluids — 8 張 SVG
+- Modern Physics — 11 張 SVG
 
-另有 5 張共用基礎 SVG 與 10 個 Lucide 物理 icon，可直接作為後續教材元件。
+共 **47 張章節級原創 SVG**，另有 5 張共用基礎 SVG 與 10 個 Lucide 物理 icon，可直接作為後續教材元件。
 
 ## 原則
 
