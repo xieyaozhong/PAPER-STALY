@@ -1,0 +1,19 @@
+{
+  "topic_id": "PHY-TOPIC-MECH-CIRCULAR",
+  "topic": "mechanics/uniform-circular-motion",
+  "title": "等速圓周運動",
+  "domain": "mechanics",
+  "status": "active",
+  "source_diagram": "../../../mechanics/assets/04_uniform-circular-motion.svg",
+  "learning_objectives": [
+    {"id":"PHY-MECH-CIRC-LO1","statement":"能說明等速圓周運動雖然速率不變，但速度方向持續改變，因此仍有加速度。"},
+    {"id":"PHY-MECH-CIRC-LO2","statement":"能使用 a_c = v²/r 與 F_c = mv²/r 判斷向心加速度與向心淨力。"},
+    {"id":"PHY-MECH-CIRC-LO3","statement":"能辨識實際作用力中哪一個或哪一些力提供指向圓心的淨力，而不把向心力視為額外的新力。"}
+  ],
+  "misconception_tags": [
+    "MIS-CIRC-CONSTANT-SPEED-NO-ACCEL",
+    "MIS-CIRC-CENTRIPETAL-IS-EXTRA-FORCE",
+    "MIS-CIRC-VELOCITY-POINTS-INWARD"
+  ],
+  "expected_asset_families": ["teach","practice","assess","diagnose","reference"]
+}
