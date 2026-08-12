@@ -1,0 +1,43 @@
+:root {
+  --bg: #080b10;
+  --surface: #111720;
+  --surface-2: #171f2a;
+  --line: #2b3746;
+  --text: #f5f7fb;
+  --muted: #93a0b0;
+  --orange: #ff9f1c;
+  --cyan: #56d7e8;
+  --danger: #ff6b6b;
+  --success: #6ee7a8;
+  --radius: 18px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --font-sans: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:radial-gradient(circle at 80% 0,#122534 0,#080b10 34rem);color:var(--text);font-family:var(--font-sans)}
+body{padding:32px}
+.asset-shell{max-width:1180px;margin:0 auto}
+.asset-header{display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:start;border-bottom:1px solid var(--line);padding-bottom:22px}
+.asset-id{font:700 12px var(--font-mono);letter-spacing:.12em;color:var(--orange);border:1px solid var(--orange);padding:9px 11px;border-radius:8px}
+.asset-title{font-size:clamp(34px,5vw,64px);line-height:1.04;margin:0 0 10px}
+.asset-kicker{font:600 13px var(--font-mono);letter-spacing:.12em;color:var(--cyan);text-transform:uppercase}
+.asset-grid{display:grid;grid-template-columns:1.35fr .65fr;gap:22px;margin-top:26px}
+.panel{background:rgba(17,23,32,.9);border:1px solid var(--line);border-radius:var(--radius);padding:22px}
+.diagram-panel img{width:100%;display:block;border-radius:12px;background:#0b0d10}
+.formula-card{font:700 clamp(24px,3vw,36px) var(--font-mono);color:var(--cyan);border-left:4px solid var(--orange);padding:18px 20px;background:var(--surface-2);border-radius:12px;margin:18px 0}
+.meta-label{font:700 11px var(--font-mono);letter-spacing:.12em;color:var(--muted);text-transform:uppercase}
+.meta-value{margin:6px 0 16px;line-height:1.65}
+.tag-row{display:flex;flex-wrap:wrap;gap:8px}
+.tag{font:600 12px var(--font-mono);border:1px solid var(--line);padding:7px 9px;border-radius:999px;color:var(--muted)}
+.quick-check{margin-top:22px;border-top:1px solid var(--line);padding-top:18px}
+.quick-check li{margin:10px 0;line-height:1.55}
+.qa-status{margin-top:26px;font:600 12px var(--font-mono);color:var(--success)}
+.error-box{max-width:900px;margin:40px auto;background:#2b1117;border:1px solid var(--danger);border-radius:16px;padding:24px;color:#ffd7dc}
+@media(max-width:820px){body{padding:18px}.asset-grid{grid-template-columns:1fr}}
