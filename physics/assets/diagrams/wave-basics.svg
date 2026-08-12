@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">波動基本量示意</title>
+  <desc id="desc">正弦波示意圖，標示振幅、波長、波峰、波谷與平衡位置。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#66d9ff"/></marker>
+  </defs>
+  <rect width="1200" height="675" fill="#08111c"/>
+  <text x="70" y="72" fill="#f7fbff" font-size="34" font-family="sans-serif" font-weight="700">波動基本量｜WAVE BASICS</text>
+  <text x="70" y="108" fill="#8ea6b8" font-size="17" font-family="monospace">WAVES · AMPLITUDE · WAVELENGTH · EQUILIBRIUM</text>
+  <line x1="100" y1="360" x2="1100" y2="360" stroke="#71808c" stroke-width="2" stroke-dasharray="10 10"/>
+  <path d="M100 360 C183 190 267 190 350 360 S517 530 600 360 S767 190 850 360 S1017 530 1100 360" fill="none" stroke="#66d9ff" stroke-width="8"/>
+  <line x1="267" y1="360" x2="267" y2="190" stroke="#ff9d36" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="285" y="278" fill="#ff9d36" font-size="23" font-family="sans-serif">振幅 A</text>
+  <line x1="267" y1="155" x2="767" y2="155" stroke="#66d9ff" stroke-width="4"/>
+  <line x1="267" y1="140" x2="267" y2="170" stroke="#66d9ff" stroke-width="4"/>
+  <line x1="767" y1="140" x2="767" y2="170" stroke="#66d9ff" stroke-width="4"/>
+  <text x="517" y="132" text-anchor="middle" fill="#66d9ff" font-size="23" font-family="sans-serif">波長 λ</text>
+  <circle cx="267" cy="190" r="8" fill="#ff9d36"/>
+  <text x="230" y="178" fill="#f7fbff" font-size="19" font-family="sans-serif">波峰</text>
+  <circle cx="517" cy="530" r="8" fill="#ff9d36"/>
+  <text x="480" y="566" fill="#f7fbff" font-size="19" font-family="sans-serif">波谷</text>
+  <text x="900" y="344" fill="#8ea6b8" font-size="19" font-family="sans-serif">平衡位置</text>
+  <rect x="70" y="590" width="1060" height="48" rx="14" fill="#101f2f" stroke="#2f5268"/>
+  <text x="600" y="622" text-anchor="middle" fill="#f7fbff" font-size="20" font-family="sans-serif">同一介質中：波速、頻率與波長可搭配 v = fλ 延伸為互動教材。</text>
+</svg>
