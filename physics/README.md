@@ -1,19 +1,37 @@
 # Physics Open Asset System
 
-這個資料夾用來管理物理教材可使用的開放素材、模擬工具、科學資料、向量圖與授權資訊。
+這個資料夾用來管理物理教材可使用的開放素材、模擬工具、科學資料、向量圖，以及可重複生產教材資產的 production layer。
 
 ## 快速入口
 
 - **總素材瀏覽器：[`index.html`](index.html)**
+- **正式生產系統：[`production/README.md`](production/README.md)**
+- **正式 Asset Registry：[`production/index.html`](production/index.html)**
 - **講義視覺規格：[`HANDOUT_DESIGN_SYSTEM.md`](HANDOUT_DESIGN_SYSTEM.md)**
-- **章節建立模板：[`chapters/CHAPTER_TEMPLATE.md`](chapters/CHAPTER_TEMPLATE.md)**
+- **資產／章節組裝模板：[`chapters/CHAPTER_TEMPLATE.md`](chapters/CHAPTER_TEMPLATE.md)**
 - 授權政策：[`LICENSE_POLICY.md`](LICENSE_POLICY.md)
 - 完整來源：[`SOURCES.md`](SOURCES.md)
 - 全域素材 manifest：[`ASSET_MANIFEST.csv`](ASSET_MANIFEST.csv)
 
-## 目標
+## Production Layer
 
-建立一套可重複使用於講義、簡報、互動網站與題目圖解的物理素材母庫，涵蓋：
+本系統不是單一本書的 generator。正式資產採：
+
+> **shared core + thin per-asset configuration**
+
+每個 asset 都有自己的 `index.html`、`asset.json`、`manifest.json`，可獨立執行並保留 stable ID、render seed、viewport、fallback fonts、learning objectives、misconception tags 與 QA contract。
+
+目前第一組正式主題「牛頓第二定律」已覆蓋五個 asset family：
+
+- `teach` — 概念講解
+- `practice` — 引導練習
+- `assess` — 概念檢核
+- `diagnose` — 迷思診斷
+- `reference` — 公式／判讀卡
+
+詳見 [`production/registry/assets.json`](production/registry/assets.json)。
+
+## 素材範圍
 
 ```text
 01_MECHANICS/
@@ -32,92 +50,58 @@
 14_ANIMATION/
 ```
 
-## 已可直接使用的章節素材包
+## 已可直接使用的 Starter Packs
 
-### Mechanics Starter Pack
-入口：[`mechanics/README.md`](mechanics/README.md)
+### Mechanics
+- 10 張統一風格原創 SVG
+- [`mechanics/README.md`](mechanics/README.md)
+- [`mechanics/index.html`](mechanics/index.html)
 
-已完成 10 張統一風格原創 SVG：牛頓第二定律、斜面受力、拋體運動、等速圓周運動、動量碰撞、機械能、胡克定律、力矩、滑輪、運動圖像。
+### Waves & Optics
+- 8 張統一風格原創 SVG
+- [`waves-optics/README.md`](waves-optics/README.md)
+- [`waves-optics/index.html`](waves-optics/index.html)
 
-可直接查看縮圖 Gallery：[`mechanics/index.html`](mechanics/index.html)
+### Electricity & Magnetism
+- 10 張統一風格原創 SVG
+- [`electricity-magnetism/README.md`](electricity-magnetism/README.md)
+- [`electricity-magnetism/index.html`](electricity-magnetism/index.html)
 
-### Waves & Optics Starter Pack
-入口：[`waves-optics/README.md`](waves-optics/README.md)
+### Thermodynamics & Fluids
+- 8 張統一風格原創 SVG
+- [`thermodynamics-fluids/README.md`](thermodynamics-fluids/README.md)
+- [`thermodynamics-fluids/index.html`](thermodynamics-fluids/index.html)
 
-已完成 8 張統一風格原創 SVG：波的基本量、疊加、駐波、都卜勒效應、反射、折射、凸透鏡成像、雙狹縫干涉。
+### Modern Physics
+- 11 張統一風格原創 SVG
+- [`modern-physics/README.md`](modern-physics/README.md)
+- [`modern-physics/index.html`](modern-physics/index.html)
 
-可直接查看縮圖 Gallery：[`waves-optics/index.html`](waves-optics/index.html)
+### Measurement & Experimental Physics
+- 8 張統一風格原創 SVG
+- [`measurement/README.md`](measurement/README.md)
+- [`measurement/index.html`](measurement/index.html)
 
-素材清單：[`waves-optics/ASSET_MANIFEST.csv`](waves-optics/ASSET_MANIFEST.csv)
-
-### Electricity & Magnetism Starter Pack
-入口：[`electricity-magnetism/README.md`](electricity-magnetism/README.md)
-
-已完成 10 張統一風格原創 SVG：庫侖力、電場線、等位線、串並聯、Kirchhoff 定律、平行板電容器、條形磁鐵、載流導線磁場、洛倫茲力、法拉第電磁感應。
-
-可直接查看縮圖 Gallery：[`electricity-magnetism/index.html`](electricity-magnetism/index.html)
-
-素材清單：[`electricity-magnetism/ASSET_MANIFEST.csv`](electricity-magnetism/ASSET_MANIFEST.csv)
-
-### Thermodynamics & Fluids Starter Pack
-入口：[`thermodynamics-fluids/README.md`](thermodynamics-fluids/README.md)
-
-已完成 8 張統一風格原創 SVG：傳導／對流／輻射、加熱曲線、熱力學第一定律、P–V 圖、液體靜壓、帕斯卡液壓、浮力、伯努力／文丘里效應。
-
-可直接查看縮圖 Gallery：[`thermodynamics-fluids/index.html`](thermodynamics-fluids/index.html)
-
-素材清單：[`thermodynamics-fluids/ASSET_MANIFEST.csv`](thermodynamics-fluids/ASSET_MANIFEST.csv)
-
-### Modern Physics Starter Pack
-入口：[`modern-physics/README.md`](modern-physics/README.md)
-
-已完成 11 張統一風格原創 SVG：光電效應、德布羅意物質波、原子能階、發射光譜、放射性衰變、半衰期、質能互換、核分裂、核融合、粒子碰撞與重力波 chirp。
-
-可直接查看縮圖 Gallery：[`modern-physics/index.html`](modern-physics/index.html)
-
-素材清單：[`modern-physics/ASSET_MANIFEST.csv`](modern-physics/ASSET_MANIFEST.csv)
-
-### Measurement & Experimental Physics Starter Pack
-入口：[`measurement/README.md`](measurement/README.md)
-
-已完成 8 張統一風格原創 SVG：SI 基本量與單位、量綱分析、準確度與精密度、測量不確定度、重複量測與誤差棒、線性擬合、向量分解、實驗資料流程。
-
-可直接查看縮圖 Gallery：[`measurement/index.html`](measurement/index.html)
-
-素材清單：[`measurement/ASSET_MANIFEST.csv`](measurement/ASSET_MANIFEST.csv)
+目前 Starter Packs 共 **55 張章節級原創 SVG**，另有 5 張共用基礎 SVG。
 
 ## 素材層級
 
 ### A — Raw / Data
-- CSV / HDF5 / ROOT / JSON
-- 實驗與公開科學資料
-- 波形、粒子事件、量測資料
+CSV、HDF5、ROOT、JSON、實驗與公開科學資料。
 
 ### B — Simulation
-- JavaScript / Python 模擬
-- 2D / 3D 物理引擎
-- 電路、光學、碰撞、量子模擬
+JavaScript / Python 模擬、2D / 3D 物理引擎、電路／光學／碰撞／量子模擬。
 
 ### C — Diagram
-- 自由體圖
-- 力向量
-- 波動示意
-- 光路
-- 電路
-- 場線
-- 熱與流體示意
+自由體圖、力向量、波動、光路、電路、場線、熱與流體示意。
 
 ### D — Presentation
-- SVG
-- PNG / WebP
-- PDF
-- MP4 / GIF
-- 可直接放進講義的圖表
+SVG、PNG、WebP、PDF、MP4、GIF 與可直接放入教材的輸出。
 
 ## 授權顏色
 
-- 🟢 `GREEN`：可納入商用母素材庫；仍保留必要 attribution / notice。
-- 🟡 `YELLOW`：來源本身可用，但內含第三方內容或需要逐項確認。
+- 🟢 `GREEN`：可納入商用母素材庫；仍依授權保留 attribution / notice。
+- 🟡 `YELLOW`：來源本身可用，但含第三方內容或需要逐項確認。
 - 🔴 `RED`：NonCommercial、NoDerivatives、All Rights Reserved 或不適合商業教材直接重用。
 
 詳見 [`LICENSE_POLICY.md`](LICENSE_POLICY.md)。
@@ -154,8 +138,6 @@
 - [`assets/diagrams/ray-optics-basic.svg`](assets/diagrams/ray-optics-basic.svg)
 - [`assets/diagrams/simple-circuit.svg`](assets/diagrams/simple-circuit.svg)
 - [`assets/diagrams/field-lines.svg`](assets/diagrams/field-lines.svg)
-
-目前章節級 Starter Pack 共 **55 張原創 SVG**，另有 5 張共用基礎 SVG。
 
 ## Lucide Physics Icon Starter Pack
 
