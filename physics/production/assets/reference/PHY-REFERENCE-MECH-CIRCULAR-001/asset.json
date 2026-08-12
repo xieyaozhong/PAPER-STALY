@@ -1,0 +1,8 @@
+{
+  "asset_id":"PHY-REFERENCE-MECH-CIRCULAR-001","family":"reference","title":"等速圓周運動｜向心公式與方向卡","audience":"both","subject":"physics","topic":"mechanics/uniform-circular-motion",
+  "learning_objectives":[{"id":"PHY-MECH-CIRC-LO1","statement":"能說明等速圓周運動雖然速率不變，但速度方向持續改變，因此仍有加速度。"},{"id":"PHY-MECH-CIRC-LO2","statement":"能使用 a_c = v²/r 與 F_c = mv²/r 判斷向心加速度與向心淨力。"},{"id":"PHY-MECH-CIRC-LO3","statement":"能辨識實際作用力中哪一個或哪一些力提供指向圓心的淨力，而不把向心力視為額外的新力。"}],
+  "misconception_tags":["MIS-CIRC-CONSTANT-SPEED-NO-ACCEL","MIS-CIRC-CENTRIPETAL-IS-EXTRA-FORCE","MIS-CIRC-VELOCITY-POINTS-INWARD"],
+  "render":{"seed":210541,"viewport":{"width":1440,"height":1080},"theme":"paper-staly-physics-dark-v1","fallback_fonts":["Noto Sans TC","PingFang TC","Microsoft JhengHei","Arial","sans-serif"]},
+  "content":{"summary":"把等速圓周運動整理成方向與公式快速判讀卡，方便複習與解題前檢查。","formulae":["a_c = v²/r","F_c = mv²/r"],"diagram":"../../../../mechanics/assets/04_uniform-circular-motion.svg","use_note":"適合課堂公式欄、複習頁、題目旁提示卡與教師投影。","references":["速度 v：永遠沿圓周切線方向。","向心加速度 a_c：永遠指向圓心。","F_c 不是額外的一種力；它代表所有實際作用力合成後的徑向淨力。","速率加倍時，a_c 與 F_c 在 m、r 不變下皆變成 4 倍。","半徑加倍時，a_c 與 F_c 在 m、v 不變下皆減半。"]},
+  "qa":{"checks":[{"id":"QA-SCHEMA","description":"必要欄位完整","required":true},{"id":"QA-FORMULA","description":"公式與比例關係正確","required":true},{"id":"QA-DIRECTION","description":"速度切向、加速度向心標示明確","required":true},{"id":"QA-DETERMINISTIC","description":"固定 seed 與 viewport","required":true}]}
+}
