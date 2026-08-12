@@ -1,0 +1,42 @@
+{
+  "asset_id": "PHY-PRACTICE-MECH-INCLINE-001",
+  "family": "practice",
+  "title": "斜面受力｜分解、列式、判讀",
+  "audience": "student",
+  "subject": "physics",
+  "topic": "mechanics/inclined-plane",
+  "learning_objectives": [
+    {"id":"PHY-MECH-INCLINE-LO1","statement":"能把重力分解為沿斜面與垂直斜面的分量。"},
+    {"id":"PHY-MECH-INCLINE-LO2","statement":"能在簡單無摩擦情境判斷正向力。"},
+    {"id":"PHY-MECH-INCLINE-LO3","statement":"能用 a = g sinθ 判斷無摩擦斜面加速度。"}
+  ],
+  "misconception_tags": [
+    "MIS-INCLINE-MG-SIN-COS-SWAPPED",
+    "MIS-INCLINE-N-EQUAL-MG",
+    "MIS-INCLINE-HEAVIER-ACCELERATES-FASTER"
+  ],
+  "render": {
+    "seed": 210311,
+    "viewport": {"width":1440,"height":1080},
+    "theme": "paper-staly-physics-dark-v1",
+    "fallback_fonts": ["Noto Sans TC","PingFang TC","Microsoft JhengHei","Arial","sans-serif"]
+  },
+  "content": {
+    "summary": "三題由受力分解進到加速度判讀，強迫先選沿斜面／垂直斜面座標，再進行計算。",
+    "formulae": ["mg∥ = mg sinθ · mg⊥ = mg cosθ"],
+    "diagram": "../../../../mechanics/assets/02_inclined-plane.svg",
+    "prompts": [
+      "質量 m 的物體位於 30° 無摩擦斜面。寫出沿斜面與垂直斜面的重力分量。",
+      "同一情境下，若物體沒有離開斜面，正向力 N 應如何表示？",
+      "兩個不同質量的物體同時由同一無摩擦斜面靜止釋放。比較它們的加速度，並說明原因。"
+    ]
+  },
+  "qa": {
+    "checks": [
+      {"id":"QA-SCHEMA","description":"必要欄位完整","required":true},
+      {"id":"QA-AXIS-FIRST","description":"題目流程要求先分解再列式","required":true},
+      {"id":"QA-NO-ANSWER-LEAK","description":"學生版不直接顯示完整解答","required":true},
+      {"id":"QA-DETERMINISTIC","description":"固定 seed 與 viewport","required":true}
+    ]
+  }
+}
