@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">反射與折射光路骨架</title>
+  <desc id="desc">光線由上方介質入射到界面，標示法線、入射光、反射光與折射光，可延伸反射定律與折射定律。</desc>
+  <defs>
+    <marker id="cyanArrow" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0,0 L11,5.5 L0,11 Z" fill="#66d9ff"/></marker>
+    <marker id="orangeArrow" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0,0 L11,5.5 L0,11 Z" fill="#ff9d36"/></marker>
+  </defs>
+  <rect width="1200" height="675" fill="#08111c"/>
+  <text x="70" y="72" fill="#f7fbff" font-size="34" font-family="sans-serif" font-weight="700">幾何光學｜RAY OPTICS</text>
+  <text x="70" y="108" fill="#8ea6b8" font-size="17" font-family="monospace">REFLECTION · REFRACTION · NORMAL</text>
+  <rect x="70" y="160" width="1060" height="210" fill="#0c1926"/>
+  <rect x="70" y="370" width="1060" height="220" fill="#10263a" opacity=".9"/>
+  <line x1="70" y1="370" x2="1130" y2="370" stroke="#d8e5ee" stroke-width="4"/>
+  <line x1="600" y1="160" x2="600" y2="590" stroke="#71808c" stroke-width="3" stroke-dasharray="10 10"/>
+  <text x="620" y="205" fill="#8ea6b8" font-size="19" font-family="sans-serif">法線 normal</text>
+  <line x1="300" y1="185" x2="590" y2="360" stroke="#ff9d36" stroke-width="7" marker-end="url(#orangeArrow)"/>
+  <text x="315" y="205" fill="#ff9d36" font-size="22" font-family="sans-serif">入射光</text>
+  <line x1="610" y1="360" x2="905" y2="185" stroke="#66d9ff" stroke-width="7" marker-end="url(#cyanArrow)"/>
+  <text x="845" y="205" fill="#66d9ff" font-size="22" font-family="sans-serif">反射光</text>
+  <line x1="605" y1="380" x2="760" y2="555" stroke="#66d9ff" stroke-width="7" marker-end="url(#cyanArrow)"/>
+  <text x="770" y="540" fill="#66d9ff" font-size="22" font-family="sans-serif">折射光</text>
+  <path d="M600 285 A85 85 0 0 0 527 327" fill="none" stroke="#ff9d36" stroke-width="3"/>
+  <text x="530" y="285" fill="#ff9d36" font-size="20" font-family="sans-serif">θᵢ</text>
+  <path d="M600 285 A85 85 0 0 1 673 327" fill="none" stroke="#66d9ff" stroke-width="3"/>
+  <text x="655" y="285" fill="#66d9ff" font-size="20" font-family="sans-serif">θᵣ</text>
+  <path d="M600 455 A85 85 0 0 0 650 437" fill="none" stroke="#66d9ff" stroke-width="3"/>
+  <text x="625" y="486" fill="#66d9ff" font-size="20" font-family="sans-serif">θₜ</text>
+  <text x="95" y="205" fill="#8ea6b8" font-size="19" font-family="sans-serif">介質 1 · n₁</text>
+  <text x="95" y="415" fill="#8ea6b8" font-size="19" font-family="sans-serif">介質 2 · n₂</text>
+  <text x="70" y="635" fill="#8ea6b8" font-size="18" font-family="sans-serif">角度皆由法線量起；可延伸 θᵢ = θᵣ、Snell 定律與全反射教材。</text>
+</svg>
