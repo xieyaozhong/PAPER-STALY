@@ -5,12 +5,12 @@
   "status": "active",
   "entrypoint": "index.html",
   "config": "asset.json",
-  "schema": "../../../../schema/asset.schema.json",
-  "shared_runtime": "../../../../core/runtime.js",
-  "shared_theme": "../../../../core/theme.css",
+  "schema": "../../../schema/asset.schema.json",
+  "shared_runtime": "../../../core/runtime.js",
+  "shared_theme": "../../../core/theme.css",
   "source_assets": [
     {
-      "path": "../../../../../mechanics/assets/01_newton-second-law.svg",
+      "path": "../../../../mechanics/assets/01_newton-second-law.svg",
       "kind": "svg",
       "license_status": "GREEN",
       "source": "project-original"
