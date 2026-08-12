@@ -1,5 +1,5 @@
 {
-  "registry_version": "1.1.0",
+  "registry_version": "1.2.0",
   "assets": [
     {
       "asset_id": "PHY-TEACH-MECH-NEWTON2-001",
@@ -65,6 +65,71 @@
       "seed": 210241,
       "learning_objectives": ["PHY-MECH-N2-LO1","PHY-MECH-N2-LO2"],
       "misconception_tags": ["MIS-N2-FORCE-MEANS-VELOCITY","MIS-N2-USE-SINGLE-FORCE-NOT-NET"]
+    },
+    {
+      "asset_id": "PHY-TEACH-MECH-INCLINE-001",
+      "family": "teach",
+      "title": "斜面受力｜先選座標，再分解重力",
+      "audience": "student",
+      "topic": "mechanics/inclined-plane",
+      "path": "assets/teach/PHY-TEACH-MECH-INCLINE-001",
+      "entrypoint": "assets/teach/PHY-TEACH-MECH-INCLINE-001/index.html",
+      "status": "active",
+      "seed": 210301,
+      "learning_objectives": ["PHY-MECH-INCLINE-LO1","PHY-MECH-INCLINE-LO2","PHY-MECH-INCLINE-LO3"],
+      "misconception_tags": ["MIS-INCLINE-MG-SIN-COS-SWAPPED","MIS-INCLINE-N-EQUAL-MG","MIS-INCLINE-HEAVIER-ACCELERATES-FASTER"]
+    },
+    {
+      "asset_id": "PHY-PRACTICE-MECH-INCLINE-001",
+      "family": "practice",
+      "title": "斜面受力｜分解、列式、判讀",
+      "audience": "student",
+      "topic": "mechanics/inclined-plane",
+      "path": "assets/practice/PHY-PRACTICE-MECH-INCLINE-001",
+      "entrypoint": "assets/practice/PHY-PRACTICE-MECH-INCLINE-001/index.html",
+      "status": "active",
+      "seed": 210311,
+      "learning_objectives": ["PHY-MECH-INCLINE-LO1","PHY-MECH-INCLINE-LO2","PHY-MECH-INCLINE-LO3"],
+      "misconception_tags": ["MIS-INCLINE-MG-SIN-COS-SWAPPED","MIS-INCLINE-N-EQUAL-MG","MIS-INCLINE-HEAVIER-ACCELERATES-FASTER"]
+    },
+    {
+      "asset_id": "PHY-ASSESS-MECH-INCLINE-001",
+      "family": "assess",
+      "title": "斜面受力｜概念檢核",
+      "audience": "student",
+      "topic": "mechanics/inclined-plane",
+      "path": "assets/assess/PHY-ASSESS-MECH-INCLINE-001",
+      "entrypoint": "assets/assess/PHY-ASSESS-MECH-INCLINE-001/index.html",
+      "status": "active",
+      "seed": 210321,
+      "learning_objectives": ["PHY-MECH-INCLINE-LO1","PHY-MECH-INCLINE-LO2","PHY-MECH-INCLINE-LO3"],
+      "misconception_tags": ["MIS-INCLINE-MG-SIN-COS-SWAPPED","MIS-INCLINE-N-EQUAL-MG","MIS-INCLINE-HEAVIER-ACCELERATES-FASTER"]
+    },
+    {
+      "asset_id": "PHY-DIAGNOSE-MECH-INCLINE-001",
+      "family": "diagnose",
+      "title": "斜面受力｜常見迷思診斷",
+      "audience": "both",
+      "topic": "mechanics/inclined-plane",
+      "path": "assets/diagnose/PHY-DIAGNOSE-MECH-INCLINE-001",
+      "entrypoint": "assets/diagnose/PHY-DIAGNOSE-MECH-INCLINE-001/index.html",
+      "status": "active",
+      "seed": 210331,
+      "learning_objectives": ["PHY-MECH-INCLINE-LO1","PHY-MECH-INCLINE-LO2","PHY-MECH-INCLINE-LO3"],
+      "misconception_tags": ["MIS-INCLINE-MG-SIN-COS-SWAPPED","MIS-INCLINE-N-EQUAL-MG","MIS-INCLINE-HEAVIER-ACCELERATES-FASTER"]
+    },
+    {
+      "asset_id": "PHY-REFERENCE-MECH-INCLINE-001",
+      "family": "reference",
+      "title": "斜面受力｜公式與判讀卡",
+      "audience": "both",
+      "topic": "mechanics/inclined-plane",
+      "path": "assets/reference/PHY-REFERENCE-MECH-INCLINE-001",
+      "entrypoint": "assets/reference/PHY-REFERENCE-MECH-INCLINE-001/index.html",
+      "status": "active",
+      "seed": 210341,
+      "learning_objectives": ["PHY-MECH-INCLINE-LO1","PHY-MECH-INCLINE-LO2","PHY-MECH-INCLINE-LO3"],
+      "misconception_tags": ["MIS-INCLINE-MG-SIN-COS-SWAPPED","MIS-INCLINE-N-EQUAL-MG","MIS-INCLINE-HEAVIER-ACCELERATES-FASTER"]
     }
   ]
 }
