@@ -1,0 +1,11 @@
+id,topic,title,file,format,license_status,status,notes
+EM-001,electricity,庫侖力,assets/01_coulomb-law.svg,SVG,GREEN,DONE,點電荷間力與反平方關係
+EM-002,electricity,電場線,assets/02_electric-field-lines.svg,SVG,GREEN,DONE,正到負／疏密表示強弱
+EM-003,electricity,等位線,assets/03_equipotential.svg,SVG,GREEN,DONE,等位線與電場垂直
+EM-004,circuit,串聯與並聯,assets/04_series-parallel.svg,SVG,GREEN,DONE,比較 I 與 V 的分配
+EM-005,circuit,Kirchhoff 定律,assets/05_kirchhoff.svg,SVG,GREEN,DONE,接點電流守恆與迴路電壓總和
+EM-006,electricity,平行板電容器,assets/06_capacitor.svg,SVG,GREEN,DONE,電荷／電場／板距
+EM-007,magnetism,條形磁鐵磁場,assets/07_bar-magnet-field.svg,SVG,GREEN,DONE,外部 N 指向 S
+EM-008,magnetism,載流直導線磁場,assets/08_wire-magnetic-field.svg,SVG,GREEN,DONE,右手定則
+EM-009,magnetism,洛倫茲力,assets/09_lorentz-force.svg,SVG,GREEN,DONE,qv×B 方向示意
+EM-010,induction,法拉第電磁感應,assets/10_faraday-induction.svg,SVG,GREEN,DONE,磁通量改變與楞次定律
