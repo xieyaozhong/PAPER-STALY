@@ -1,0 +1,8 @@
+{
+  "asset_id":"PHY-PRACTICE-MECH-CIRCULAR-001","family":"practice","title":"等速圓周運動｜向心量引導練習","audience":"student","subject":"physics","topic":"mechanics/uniform-circular-motion",
+  "learning_objectives":[{"id":"PHY-MECH-CIRC-LO1","statement":"能說明等速圓周運動雖然速率不變，但速度方向持續改變，因此仍有加速度。"},{"id":"PHY-MECH-CIRC-LO2","statement":"能使用 a_c = v²/r 與 F_c = mv²/r 判斷向心加速度與向心淨力。"},{"id":"PHY-MECH-CIRC-LO3","statement":"能辨識實際作用力中哪一個或哪一些力提供指向圓心的淨力，而不把向心力視為額外的新力。"}],
+  "misconception_tags":["MIS-CIRC-CONSTANT-SPEED-NO-ACCEL","MIS-CIRC-CENTRIPETAL-IS-EXTRA-FORCE","MIS-CIRC-VELOCITY-POINTS-INWARD"],
+  "render":{"seed":210511,"viewport":{"width":1440,"height":1080},"theme":"paper-staly-physics-dark-v1","fallback_fonts":["Noto Sans TC","PingFang TC","Microsoft JhengHei","Arial","sans-serif"]},
+  "content":{"summary":"從方向判讀、比例關係到實際受力來源，逐步練習等速圓周運動。","formulae":["a_c = v²/r","F_c = mv²/r"],"diagram":"../../../../mechanics/assets/04_uniform-circular-motion.svg","prompts":["一物體以固定速率繞圓運動。畫出任一點的速度方向與加速度方向。","半徑固定時，速率由 v 增加到 3v。比較向心加速度前後大小。","汽車在水平彎道等速轉彎時，指出可能提供向心淨力的實際作用力。"]},
+  "qa":{"checks":[{"id":"QA-SCHEMA","description":"必要欄位完整","required":true},{"id":"QA-PROGRESSION","description":"練習涵蓋方向→比例→力來源","required":true},{"id":"QA-NO-ANSWER-LEAK","description":"學生版不直接揭露完整答案","required":true},{"id":"QA-DETERMINISTIC","description":"固定 seed 與 viewport","required":true}]}
+}
