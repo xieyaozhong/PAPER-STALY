@@ -88,6 +88,10 @@
 
 機器可讀清單：[`ASSET_MANIFEST.csv`](ASSET_MANIFEST.csv)
 
+視覺規格：[`VISUAL_SYSTEM.md`](VISUAL_SYSTEM.md)
+
+授權紀錄模板：[`ATTRIBUTION_TEMPLATE.csv`](ATTRIBUTION_TEMPLATE.csv)
+
 ## 已放入專案的自製基礎 SVG
 
 - [`assets/diagrams/free-body-template.svg`](assets/diagrams/free-body-template.svg)
@@ -97,3 +101,22 @@
 - [`assets/diagrams/field-lines.svg`](assets/diagrams/field-lines.svg)
 
 這些 SVG 為本專案自製，可直接作為後續講義的統一圖解骨架。
+
+## 已加入的 Lucide 物理 icon starter pack
+
+位置：[`assets/icons/lucide/`](assets/icons/lucide/)
+
+目前包含：
+
+- `atom.svg`
+- `magnet.svg`
+- `battery.svg`
+- `gauge.svg`
+- `waves-horizontal.svg`
+- `thermometer.svg`
+- `orbit.svg`
+- `ruler.svg`
+- `scale.svg`
+- `telescope.svg`
+
+Lucide 為 ISC 授權；授權 notice 已一併保存在 [`assets/icons/lucide/LICENSE.txt`](assets/icons/lucide/LICENSE.txt)。
